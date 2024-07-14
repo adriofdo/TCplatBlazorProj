@@ -1,0 +1,153 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\adrio\\source\\repos\\TcPlatWebApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{356AFBA5-E33A-4A8E-AA0E-4A0A0BD03533}|TcPlatWebApp\\TcPlatWebApp.csproj|c:\\users\\adrio\\source\\repos\\tcplatwebapp\\tcplatwebapp\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{356AFBA5-E33A-4A8E-AA0E-4A0A0BD03533}|TcPlatWebApp\\TcPlatWebApp.csproj|solutionrelative:tcplatwebapp\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{356AFBA5-E33A-4A8E-AA0E-4A0A0BD03533}|TcPlatWebApp\\TcPlatWebApp.csproj|c:\\users\\adrio\\source\\repos\\tcplatwebapp\\tcplatwebapp\\pages\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{356AFBA5-E33A-4A8E-AA0E-4A0A0BD03533}|TcPlatWebApp\\TcPlatWebApp.csproj|solutionrelative:tcplatwebapp\\pages\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{356AFBA5-E33A-4A8E-AA0E-4A0A0BD03533}|TcPlatWebApp\\TcPlatWebApp.csproj|c:\\users\\adrio\\source\\repos\\tcplatwebapp\\tcplatwebapp\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{356AFBA5-E33A-4A8E-AA0E-4A0A0BD03533}|TcPlatWebApp\\TcPlatWebApp.csproj|solutionrelative:tcplatwebapp\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{356AFBA5-E33A-4A8E-AA0E-4A0A0BD03533}|TcPlatWebApp\\TcPlatWebApp.csproj|c:\\users\\adrio\\source\\repos\\tcplatwebapp\\tcplatwebapp\\pages\\fetchdata.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{356AFBA5-E33A-4A8E-AA0E-4A0A0BD03533}|TcPlatWebApp\\TcPlatWebApp.csproj|solutionrelative:tcplatwebapp\\pages\\fetchdata.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{356AFBA5-E33A-4A8E-AA0E-4A0A0BD03533}|TcPlatWebApp\\TcPlatWebApp.csproj|c:\\users\\adrio\\source\\repos\\tcplatwebapp\\tcplatwebapp\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{356AFBA5-E33A-4A8E-AA0E-4A0A0BD03533}|TcPlatWebApp\\TcPlatWebApp.csproj|solutionrelative:tcplatwebapp\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E600688-4B4B-482C-9155-F95A72F01CF4}|SQLDatAccessLibrary\\SQLDatAccessLibrary.csproj|c:\\users\\adrio\\source\\repos\\tcplatwebapp\\sqldataccesslibrary\\sqldataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E600688-4B4B-482C-9155-F95A72F01CF4}|SQLDatAccessLibrary\\SQLDatAccessLibrary.csproj|solutionrelative:sqldataccesslibrary\\sqldataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{356AFBA5-E33A-4A8E-AA0E-4A0A0BD03533}|TcPlatWebApp\\TcPlatWebApp.csproj|c:\\users\\adrio\\source\\repos\\tcplatwebapp\\tcplatwebapp\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{356AFBA5-E33A-4A8E-AA0E-4A0A0BD03533}|TcPlatWebApp\\TcPlatWebApp.csproj|solutionrelative:tcplatwebapp\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{356AFBA5-E33A-4A8E-AA0E-4A0A0BD03533}|TcPlatWebApp\\TcPlatWebApp.csproj|c:\\users\\adrio\\source\\repos\\tcplatwebapp\\tcplatwebapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{356AFBA5-E33A-4A8E-AA0E-4A0A0BD03533}|TcPlatWebApp\\TcPlatWebApp.csproj|solutionrelative:tcplatwebapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 371,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FetchData.razor",
+              "DocumentMoniker": "C:\\Users\\adrio\\source\\repos\\TcPlatWebApp\\TcPlatWebApp\\Pages\\FetchData.razor",
+              "RelativeDocumentMoniker": "TcPlatWebApp\\Pages\\FetchData.razor",
+              "ToolTip": "C:\\Users\\adrio\\source\\repos\\TcPlatWebApp\\TcPlatWebApp\\Pages\\FetchData.razor",
+              "RelativeToolTip": "TcPlatWebApp\\Pages\\FetchData.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-14T09:43:38.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SqlDataAccess.cs",
+              "DocumentMoniker": "C:\\Users\\adrio\\source\\repos\\TcPlatWebApp\\SQLDatAccessLibrary\\SqlDataAccess.cs",
+              "RelativeDocumentMoniker": "SQLDatAccessLibrary\\SqlDataAccess.cs",
+              "ToolTip": "C:\\Users\\adrio\\source\\repos\\TcPlatWebApp\\SQLDatAccessLibrary\\SqlDataAccess.cs",
+              "RelativeToolTip": "SQLDatAccessLibrary\\SqlDataAccess.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T09:06:14.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.razor",
+              "DocumentMoniker": "C:\\Users\\adrio\\source\\repos\\TcPlatWebApp\\TcPlatWebApp\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "TcPlatWebApp\\Pages\\Login.razor",
+              "ToolTip": "C:\\Users\\adrio\\source\\repos\\TcPlatWebApp\\TcPlatWebApp\\Pages\\Login.razor",
+              "RelativeToolTip": "TcPlatWebApp\\Pages\\Login.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-14T08:22:58.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\adrio\\source\\repos\\TcPlatWebApp\\TcPlatWebApp\\Pages\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "TcPlatWebApp\\Pages\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\adrio\\source\\repos\\TcPlatWebApp\\TcPlatWebApp\\Pages\\_Layout.cshtml",
+              "RelativeToolTip": "TcPlatWebApp\\Pages\\_Layout.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-14T08:14:47.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Host.cshtml",
+              "DocumentMoniker": "C:\\Users\\adrio\\source\\repos\\TcPlatWebApp\\TcPlatWebApp\\Pages\\_Host.cshtml",
+              "RelativeDocumentMoniker": "TcPlatWebApp\\Pages\\_Host.cshtml",
+              "ToolTip": "C:\\Users\\adrio\\source\\repos\\TcPlatWebApp\\TcPlatWebApp\\Pages\\_Host.cshtml",
+              "RelativeToolTip": "TcPlatWebApp\\Pages\\_Host.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-14T08:14:44.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\adrio\\source\\repos\\TcPlatWebApp\\TcPlatWebApp\\_Imports.razor",
+              "RelativeDocumentMoniker": "TcPlatWebApp\\_Imports.razor",
+              "ToolTip": "C:\\Users\\adrio\\source\\repos\\TcPlatWebApp\\TcPlatWebApp\\_Imports.razor",
+              "RelativeToolTip": "TcPlatWebApp\\_Imports.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-14T08:02:31.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\adrio\\source\\repos\\TcPlatWebApp\\TcPlatWebApp\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "TcPlatWebApp\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\adrio\\source\\repos\\TcPlatWebApp\\TcPlatWebApp\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "TcPlatWebApp\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAwwMkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-14T07:37:14.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\adrio\\source\\repos\\TcPlatWebApp\\TcPlatWebApp\\Pages\\Index.razor",
+              "RelativeDocumentMoniker": "TcPlatWebApp\\Pages\\Index.razor",
+              "ToolTip": "C:\\Users\\adrio\\source\\repos\\TcPlatWebApp\\TcPlatWebApp\\Pages\\Index.razor",
+              "RelativeToolTip": "TcPlatWebApp\\Pages\\Index.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-13T20:26:07.163Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
