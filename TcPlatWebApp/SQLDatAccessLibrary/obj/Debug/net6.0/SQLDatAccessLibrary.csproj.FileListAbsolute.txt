@@ -1,0 +1,13 @@
+C:\Users\adrio\OneDrive\Desktop\tutticolori\TcPlatWebApp\SQLDatAccessLibrary\bin\Debug\net6.0\SQLDatAccessLibrary.deps.json
+C:\Users\adrio\OneDrive\Desktop\tutticolori\TcPlatWebApp\SQLDatAccessLibrary\bin\Debug\net6.0\SQLDatAccessLibrary.dll
+C:\Users\adrio\OneDrive\Desktop\tutticolori\TcPlatWebApp\SQLDatAccessLibrary\bin\Debug\net6.0\SQLDatAccessLibrary.pdb
+C:\Users\adrio\OneDrive\Desktop\tutticolori\TcPlatWebApp\SQLDatAccessLibrary\obj\Debug\net6.0\SQLDatAccessLibrary.csproj.AssemblyReference.cache
+C:\Users\adrio\OneDrive\Desktop\tutticolori\TcPlatWebApp\SQLDatAccessLibrary\obj\Debug\net6.0\SQLDatAccessLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adrio\OneDrive\Desktop\tutticolori\TcPlatWebApp\SQLDatAccessLibrary\obj\Debug\net6.0\SQLDatAccessLibrary.AssemblyInfoInputs.cache
+C:\Users\adrio\OneDrive\Desktop\tutticolori\TcPlatWebApp\SQLDatAccessLibrary\obj\Debug\net6.0\SQLDatAccessLibrary.AssemblyInfo.cs
+C:\Users\adrio\OneDrive\Desktop\tutticolori\TcPlatWebApp\SQLDatAccessLibrary\obj\Debug\net6.0\SQLDatAccessLibrary.csproj.CoreCompileInputs.cache
+C:\Users\adrio\OneDrive\Desktop\tutticolori\TcPlatWebApp\SQLDatAccessLibrary\obj\Debug\net6.0\SQLDatAccessLibrary.sourcelink.json
+C:\Users\adrio\OneDrive\Desktop\tutticolori\TcPlatWebApp\SQLDatAccessLibrary\obj\Debug\net6.0\SQLDatAccessLibrary.dll
+C:\Users\adrio\OneDrive\Desktop\tutticolori\TcPlatWebApp\SQLDatAccessLibrary\obj\Debug\net6.0\refint\SQLDatAccessLibrary.dll
+C:\Users\adrio\OneDrive\Desktop\tutticolori\TcPlatWebApp\SQLDatAccessLibrary\obj\Debug\net6.0\SQLDatAccessLibrary.pdb
+C:\Users\adrio\OneDrive\Desktop\tutticolori\TcPlatWebApp\SQLDatAccessLibrary\obj\Debug\net6.0\ref\SQLDatAccessLibrary.dll

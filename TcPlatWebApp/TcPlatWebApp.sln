@@ -5,7 +5,7 @@ VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TcPlatWebApp", "TcPlatWebApp\TcPlatWebApp.csproj", "{356AFBA5-E33A-4A8E-AA0E-4A0A0BD03533}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLDatAccessLibrary", "SQLDatAccessLibrary\SQLDatAccessLibrary.csproj", "{3E600688-4B4B-482C-9155-F95A72F01CF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SQLDatAccessLibrary", "SQLDatAccessLibrary\SQLDatAccessLibrary.csproj", "{3E600688-4B4B-482C-9155-F95A72F01CF4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

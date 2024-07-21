@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\adrio\\source\\repos\\TcPlatWebApp\\SQLDatAccessLibrary\\SQLDatAccessLibrary.csproj": {}
+    "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\SQLDatAccessLibrary\\SQLDatAccessLibrary.csproj": {}
   },
   "projects": {
-    "C:\\Users\\adrio\\source\\repos\\TcPlatWebApp\\SQLDatAccessLibrary\\SQLDatAccessLibrary.csproj": {
+    "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\SQLDatAccessLibrary\\SQLDatAccessLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\adrio\\source\\repos\\TcPlatWebApp\\SQLDatAccessLibrary\\SQLDatAccessLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\SQLDatAccessLibrary\\SQLDatAccessLibrary.csproj",
         "projectName": "SQLDatAccessLibrary",
-        "projectPath": "C:\\Users\\adrio\\source\\repos\\TcPlatWebApp\\SQLDatAccessLibrary\\SQLDatAccessLibrary.csproj",
+        "projectPath": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\SQLDatAccessLibrary\\SQLDatAccessLibrary.csproj",
         "packagesPath": "C:\\Users\\adrio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\adrio\\source\\repos\\TcPlatWebApp\\SQLDatAccessLibrary\\obj\\",
+        "outputPath": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\SQLDatAccessLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -14,4 +14,14 @@
     <Folder Include="wwwroot\images\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SQLDatAccessLibrary\SQLDatAccessLibrary.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="Shared\EventConsole.razor">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+  </ItemGroup>
+
 </Project>

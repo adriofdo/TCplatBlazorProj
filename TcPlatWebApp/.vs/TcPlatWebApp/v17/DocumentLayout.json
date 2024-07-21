@@ -1,37 +1,77 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\adrio\\source\\repos\\TcPlatWebApp\\",
+  "WorkspaceRootPath": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{356AFBA5-E33A-4A8E-AA0E-4A0A0BD03533}|TcPlatWebApp\\TcPlatWebApp.csproj|c:\\users\\adrio\\source\\repos\\tcplatwebapp\\tcplatwebapp\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{356AFBA5-E33A-4A8E-AA0E-4A0A0BD03533}|TcPlatWebApp\\TcPlatWebApp.csproj|solutionrelative:tcplatwebapp\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{356AFBA5-E33A-4A8E-AA0E-4A0A0BD03533}|TcPlatWebApp\\TcPlatWebApp.csproj|c:\\users\\adrio\\onedrive\\desktop\\tutticolori\\tcplatwebapp\\tcplatwebapp\\pages\\anagraficigrid.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{356AFBA5-E33A-4A8E-AA0E-4A0A0BD03533}|TcPlatWebApp\\TcPlatWebApp.csproj|solutionrelative:tcplatwebapp\\pages\\anagraficigrid.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{356AFBA5-E33A-4A8E-AA0E-4A0A0BD03533}|TcPlatWebApp\\TcPlatWebApp.csproj|c:\\users\\adrio\\source\\repos\\tcplatwebapp\\tcplatwebapp\\pages\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{3E600688-4B4B-482C-9155-F95A72F01CF4}|SQLDatAccessLibrary\\SQLDatAccessLibrary.csproj|c:\\users\\adrio\\onedrive\\desktop\\tutticolori\\tcplatwebapp\\sqldataccesslibrary\\anagrafici\\anagraficidata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E600688-4B4B-482C-9155-F95A72F01CF4}|SQLDatAccessLibrary\\SQLDatAccessLibrary.csproj|solutionrelative:sqldataccesslibrary\\anagrafici\\anagraficidata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{356AFBA5-E33A-4A8E-AA0E-4A0A0BD03533}|TcPlatWebApp\\TcPlatWebApp.csproj|c:\\users\\adrio\\onedrive\\desktop\\tutticolori\\tcplatwebapp\\tcplatwebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{356AFBA5-E33A-4A8E-AA0E-4A0A0BD03533}|TcPlatWebApp\\TcPlatWebApp.csproj|solutionrelative:tcplatwebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{356AFBA5-E33A-4A8E-AA0E-4A0A0BD03533}|TcPlatWebApp\\TcPlatWebApp.csproj|c:\\users\\adrio\\onedrive\\desktop\\tutticolori\\tcplatwebapp\\tcplatwebapp\\pages\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{356AFBA5-E33A-4A8E-AA0E-4A0A0BD03533}|TcPlatWebApp\\TcPlatWebApp.csproj|solutionrelative:tcplatwebapp\\pages\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{356AFBA5-E33A-4A8E-AA0E-4A0A0BD03533}|TcPlatWebApp\\TcPlatWebApp.csproj|c:\\users\\adrio\\source\\repos\\tcplatwebapp\\tcplatwebapp\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{356AFBA5-E33A-4A8E-AA0E-4A0A0BD03533}|TcPlatWebApp\\TcPlatWebApp.csproj|solutionrelative:tcplatwebapp\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3E600688-4B4B-482C-9155-F95A72F01CF4}|SQLDatAccessLibrary\\SQLDatAccessLibrary.csproj|c:\\users\\adrio\\onedrive\\desktop\\tutticolori\\tcplatwebapp\\sqldataccesslibrary\\anagrafici\\anagraficimodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E600688-4B4B-482C-9155-F95A72F01CF4}|SQLDatAccessLibrary\\SQLDatAccessLibrary.csproj|solutionrelative:sqldataccesslibrary\\anagrafici\\anagraficimodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{356AFBA5-E33A-4A8E-AA0E-4A0A0BD03533}|TcPlatWebApp\\TcPlatWebApp.csproj|c:\\users\\adrio\\source\\repos\\tcplatwebapp\\tcplatwebapp\\pages\\fetchdata.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{356AFBA5-E33A-4A8E-AA0E-4A0A0BD03533}|TcPlatWebApp\\TcPlatWebApp.csproj|solutionrelative:tcplatwebapp\\pages\\fetchdata.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3E600688-4B4B-482C-9155-F95A72F01CF4}|SQLDatAccessLibrary\\SQLDatAccessLibrary.csproj|c:\\users\\adrio\\onedrive\\desktop\\tutticolori\\tcplatwebapp\\sqldataccesslibrary\\login\\logindata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E600688-4B4B-482C-9155-F95A72F01CF4}|SQLDatAccessLibrary\\SQLDatAccessLibrary.csproj|solutionrelative:sqldataccesslibrary\\login\\logindata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{356AFBA5-E33A-4A8E-AA0E-4A0A0BD03533}|TcPlatWebApp\\TcPlatWebApp.csproj|c:\\users\\adrio\\source\\repos\\tcplatwebapp\\tcplatwebapp\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{356AFBA5-E33A-4A8E-AA0E-4A0A0BD03533}|TcPlatWebApp\\TcPlatWebApp.csproj|solutionrelative:tcplatwebapp\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3E600688-4B4B-482C-9155-F95A72F01CF4}|SQLDatAccessLibrary\\SQLDatAccessLibrary.csproj|c:\\users\\adrio\\onedrive\\desktop\\tutticolori\\tcplatwebapp\\sqldataccesslibrary\\login\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E600688-4B4B-482C-9155-F95A72F01CF4}|SQLDatAccessLibrary\\SQLDatAccessLibrary.csproj|solutionrelative:sqldataccesslibrary\\login\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E600688-4B4B-482C-9155-F95A72F01CF4}|SQLDatAccessLibrary\\SQLDatAccessLibrary.csproj|c:\\users\\adrio\\source\\repos\\tcplatwebapp\\sqldataccesslibrary\\sqldataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3E600688-4B4B-482C-9155-F95A72F01CF4}|SQLDatAccessLibrary\\SQLDatAccessLibrary.csproj|c:\\users\\adrio\\onedrive\\desktop\\tutticolori\\tcplatwebapp\\sqldataccesslibrary\\sqldataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E600688-4B4B-482C-9155-F95A72F01CF4}|SQLDatAccessLibrary\\SQLDatAccessLibrary.csproj|solutionrelative:sqldataccesslibrary\\sqldataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{356AFBA5-E33A-4A8E-AA0E-4A0A0BD03533}|TcPlatWebApp\\TcPlatWebApp.csproj|c:\\users\\adrio\\source\\repos\\tcplatwebapp\\tcplatwebapp\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{356AFBA5-E33A-4A8E-AA0E-4A0A0BD03533}|TcPlatWebApp\\TcPlatWebApp.csproj|c:\\users\\adrio\\onedrive\\desktop\\tutticolori\\tcplatwebapp\\tcplatwebapp\\shared\\eventconsole.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{356AFBA5-E33A-4A8E-AA0E-4A0A0BD03533}|TcPlatWebApp\\TcPlatWebApp.csproj|solutionrelative:tcplatwebapp\\shared\\eventconsole.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{356AFBA5-E33A-4A8E-AA0E-4A0A0BD03533}|TcPlatWebApp\\TcPlatWebApp.csproj|c:\\users\\adrio\\onedrive\\desktop\\tutticolori\\tcplatwebapp\\tcplatwebapp\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{356AFBA5-E33A-4A8E-AA0E-4A0A0BD03533}|TcPlatWebApp\\TcPlatWebApp.csproj|solutionrelative:tcplatwebapp\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{356AFBA5-E33A-4A8E-AA0E-4A0A0BD03533}|TcPlatWebApp\\TcPlatWebApp.csproj|c:\\users\\adrio\\source\\repos\\tcplatwebapp\\tcplatwebapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{356AFBA5-E33A-4A8E-AA0E-4A0A0BD03533}|TcPlatWebApp\\TcPlatWebApp.csproj|c:\\users\\adrio\\onedrive\\desktop\\tutticolori\\tcplatwebapp\\tcplatwebapp\\pages\\registration.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{356AFBA5-E33A-4A8E-AA0E-4A0A0BD03533}|TcPlatWebApp\\TcPlatWebApp.csproj|solutionrelative:tcplatwebapp\\pages\\registration.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{356AFBA5-E33A-4A8E-AA0E-4A0A0BD03533}|TcPlatWebApp\\TcPlatWebApp.csproj|c:\\users\\adrio\\onedrive\\desktop\\tutticolori\\tcplatwebapp\\tcplatwebapp\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{356AFBA5-E33A-4A8E-AA0E-4A0A0BD03533}|TcPlatWebApp\\TcPlatWebApp.csproj|solutionrelative:tcplatwebapp\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{356AFBA5-E33A-4A8E-AA0E-4A0A0BD03533}|TcPlatWebApp\\TcPlatWebApp.csproj|c:\\users\\adrio\\onedrive\\desktop\\tutticolori\\tcplatwebapp\\tcplatwebapp\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{356AFBA5-E33A-4A8E-AA0E-4A0A0BD03533}|TcPlatWebApp\\TcPlatWebApp.csproj|solutionrelative:tcplatwebapp\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E600688-4B4B-482C-9155-F95A72F01CF4}|SQLDatAccessLibrary\\SQLDatAccessLibrary.csproj|c:\\users\\adrio\\onedrive\\desktop\\tutticolori\\tcplatwebapp\\sqldataccesslibrary\\isqldataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E600688-4B4B-482C-9155-F95A72F01CF4}|SQLDatAccessLibrary\\SQLDatAccessLibrary.csproj|solutionrelative:sqldataccesslibrary\\isqldataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{356AFBA5-E33A-4A8E-AA0E-4A0A0BD03533}|TcPlatWebApp\\TcPlatWebApp.csproj|c:\\users\\adrio\\onedrive\\desktop\\tutticolori\\tcplatwebapp\\tcplatwebapp\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{356AFBA5-E33A-4A8E-AA0E-4A0A0BD03533}|TcPlatWebApp\\TcPlatWebApp.csproj|solutionrelative:tcplatwebapp\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{356AFBA5-E33A-4A8E-AA0E-4A0A0BD03533}|TcPlatWebApp\\TcPlatWebApp.csproj|c:\\users\\adrio\\onedrive\\desktop\\tutticolori\\tcplatwebapp\\tcplatwebapp\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{356AFBA5-E33A-4A8E-AA0E-4A0A0BD03533}|TcPlatWebApp\\TcPlatWebApp.csproj|solutionrelative:tcplatwebapp\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{356AFBA5-E33A-4A8E-AA0E-4A0A0BD03533}|TcPlatWebApp\\TcPlatWebApp.csproj|c:\\users\\adrio\\onedrive\\desktop\\tutticolori\\tcplatwebapp\\tcplatwebapp\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{356AFBA5-E33A-4A8E-AA0E-4A0A0BD03533}|TcPlatWebApp\\TcPlatWebApp.csproj|solutionrelative:tcplatwebapp\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{356AFBA5-E33A-4A8E-AA0E-4A0A0BD03533}|TcPlatWebApp\\TcPlatWebApp.csproj|c:\\users\\adrio\\onedrive\\desktop\\tutticolori\\tcplatwebapp\\tcplatwebapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{356AFBA5-E33A-4A8E-AA0E-4A0A0BD03533}|TcPlatWebApp\\TcPlatWebApp.csproj|solutionrelative:tcplatwebapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
@@ -50,84 +90,215 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FetchData.razor",
-              "DocumentMoniker": "C:\\Users\\adrio\\source\\repos\\TcPlatWebApp\\TcPlatWebApp\\Pages\\FetchData.razor",
-              "RelativeDocumentMoniker": "TcPlatWebApp\\Pages\\FetchData.razor",
-              "ToolTip": "C:\\Users\\adrio\\source\\repos\\TcPlatWebApp\\TcPlatWebApp\\Pages\\FetchData.razor",
-              "RelativeToolTip": "TcPlatWebApp\\Pages\\FetchData.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-14T09:43:38.731Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SqlDataAccess.cs",
-              "DocumentMoniker": "C:\\Users\\adrio\\source\\repos\\TcPlatWebApp\\SQLDatAccessLibrary\\SqlDataAccess.cs",
-              "RelativeDocumentMoniker": "SQLDatAccessLibrary\\SqlDataAccess.cs",
-              "ToolTip": "C:\\Users\\adrio\\source\\repos\\TcPlatWebApp\\SQLDatAccessLibrary\\SqlDataAccess.cs",
-              "RelativeToolTip": "SQLDatAccessLibrary\\SqlDataAccess.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAaAAAA",
+              "DocumentIndex": 1,
+              "Title": "AnagraficiData.cs",
+              "DocumentMoniker": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\SQLDatAccessLibrary\\Anagrafici\\AnagraficiData.cs",
+              "RelativeDocumentMoniker": "SQLDatAccessLibrary\\Anagrafici\\AnagraficiData.cs",
+              "ToolTip": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\SQLDatAccessLibrary\\Anagrafici\\AnagraficiData.cs",
+              "RelativeToolTip": "SQLDatAccessLibrary\\Anagrafici\\AnagraficiData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T09:06:14.799Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Login.razor",
-              "DocumentMoniker": "C:\\Users\\adrio\\source\\repos\\TcPlatWebApp\\TcPlatWebApp\\Pages\\Login.razor",
-              "RelativeDocumentMoniker": "TcPlatWebApp\\Pages\\Login.razor",
-              "ToolTip": "C:\\Users\\adrio\\source\\repos\\TcPlatWebApp\\TcPlatWebApp\\Pages\\Login.razor",
-              "RelativeToolTip": "TcPlatWebApp\\Pages\\Login.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-14T08:22:58.518Z",
+              "WhenOpened": "2024-07-21T12:51:36.281Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\adrio\\source\\repos\\TcPlatWebApp\\TcPlatWebApp\\Pages\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "TcPlatWebApp\\Pages\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\adrio\\source\\repos\\TcPlatWebApp\\TcPlatWebApp\\Pages\\_Layout.cshtml",
-              "RelativeToolTip": "TcPlatWebApp\\Pages\\_Layout.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAABAAAA",
+              "DocumentIndex": 4,
+              "Title": "AnagraficiModel.cs",
+              "DocumentMoniker": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\SQLDatAccessLibrary\\Anagrafici\\AnagraficiModel.cs",
+              "RelativeDocumentMoniker": "SQLDatAccessLibrary\\Anagrafici\\AnagraficiModel.cs",
+              "ToolTip": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\SQLDatAccessLibrary\\Anagrafici\\AnagraficiModel.cs",
+              "RelativeToolTip": "SQLDatAccessLibrary\\Anagrafici\\AnagraficiModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T12:49:44.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AnagraficiGrid.razor",
+              "DocumentMoniker": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\TcPlatWebApp\\Pages\\AnagraficiGrid.razor",
+              "RelativeDocumentMoniker": "TcPlatWebApp\\Pages\\AnagraficiGrid.razor",
+              "ToolTip": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\TcPlatWebApp\\Pages\\AnagraficiGrid.razor",
+              "RelativeToolTip": "TcPlatWebApp\\Pages\\AnagraficiGrid.razor",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB4AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-14T08:14:47.947Z"
+              "WhenOpened": "2024-07-20T10:18:40.914Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\TcPlatWebApp\\Program.cs",
+              "RelativeDocumentMoniker": "TcPlatWebApp\\Program.cs",
+              "ToolTip": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\TcPlatWebApp\\Program.cs",
+              "RelativeToolTip": "TcPlatWebApp\\Program.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAwwBIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T17:19:17.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginData.cs",
+              "DocumentMoniker": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\SQLDatAccessLibrary\\Login\\LoginData.cs",
+              "RelativeDocumentMoniker": "SQLDatAccessLibrary\\Login\\LoginData.cs",
+              "ToolTip": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\SQLDatAccessLibrary\\Login\\LoginData.cs",
+              "RelativeToolTip": "SQLDatAccessLibrary\\Login\\LoginData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T16:36:53.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\SQLDatAccessLibrary\\Login\\LoginModel.cs",
+              "RelativeDocumentMoniker": "SQLDatAccessLibrary\\Login\\LoginModel.cs",
+              "ToolTip": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\SQLDatAccessLibrary\\Login\\LoginModel.cs",
+              "RelativeToolTip": "SQLDatAccessLibrary\\Login\\LoginModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T16:35:55.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\TcPlatWebApp\\Shared\\NavMenu.razor",
+              "RelativeDocumentMoniker": "TcPlatWebApp\\Shared\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\TcPlatWebApp\\Shared\\NavMenu.razor",
+              "RelativeToolTip": "TcPlatWebApp\\Shared\\NavMenu.razor",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAcwBUAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-14T16:33:45.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Login.razor",
+              "DocumentMoniker": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\TcPlatWebApp\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "TcPlatWebApp\\Pages\\Login.razor",
+              "ToolTip": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\TcPlatWebApp\\Pages\\Login.razor",
+              "RelativeToolTip": "TcPlatWebApp\\Pages\\Login.razor",
+              "ViewState": "AQIAACMAAAAAAAAAAAAAACgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-14T08:22:58.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\TcPlatWebApp\\Pages\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "TcPlatWebApp\\Pages\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\TcPlatWebApp\\Pages\\_Layout.cshtml",
+              "RelativeToolTip": "TcPlatWebApp\\Pages\\_Layout.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-14T08:14:47.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ISqlDataAccess.cs",
+              "DocumentMoniker": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\SQLDatAccessLibrary\\ISqlDataAccess.cs",
+              "RelativeDocumentMoniker": "SQLDatAccessLibrary\\ISqlDataAccess.cs",
+              "ToolTip": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\SQLDatAccessLibrary\\ISqlDataAccess.cs",
+              "RelativeToolTip": "SQLDatAccessLibrary\\ISqlDataAccess.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T17:36:01.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Registration.razor",
+              "DocumentMoniker": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\TcPlatWebApp\\Pages\\Registration.razor",
+              "RelativeDocumentMoniker": "TcPlatWebApp\\Pages\\Registration.razor",
+              "ToolTip": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\TcPlatWebApp\\Pages\\Registration.razor",
+              "RelativeToolTip": "TcPlatWebApp\\Pages\\Registration.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-14T16:22:39.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\TcPlatWebApp\\Pages\\Error.cshtml",
+              "RelativeDocumentMoniker": "TcPlatWebApp\\Pages\\Error.cshtml",
+              "ToolTip": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\TcPlatWebApp\\Pages\\Error.cshtml",
+              "RelativeToolTip": "TcPlatWebApp\\Pages\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-14T16:33:12.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SqlDataAccess.cs",
+              "DocumentMoniker": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\SQLDatAccessLibrary\\SqlDataAccess.cs",
+              "RelativeDocumentMoniker": "SQLDatAccessLibrary\\SqlDataAccess.cs",
+              "ToolTip": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\SQLDatAccessLibrary\\SqlDataAccess.cs",
+              "RelativeToolTip": "SQLDatAccessLibrary\\SqlDataAccess.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T09:06:14.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "_Host.cshtml",
-              "DocumentMoniker": "C:\\Users\\adrio\\source\\repos\\TcPlatWebApp\\TcPlatWebApp\\Pages\\_Host.cshtml",
+              "DocumentMoniker": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\TcPlatWebApp\\Pages\\_Host.cshtml",
               "RelativeDocumentMoniker": "TcPlatWebApp\\Pages\\_Host.cshtml",
-              "ToolTip": "C:\\Users\\adrio\\source\\repos\\TcPlatWebApp\\TcPlatWebApp\\Pages\\_Host.cshtml",
+              "ToolTip": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\TcPlatWebApp\\Pages\\_Host.cshtml",
               "RelativeToolTip": "TcPlatWebApp\\Pages\\_Host.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-14T08:14:44.732Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "_Imports.razor",
-              "DocumentMoniker": "C:\\Users\\adrio\\source\\repos\\TcPlatWebApp\\TcPlatWebApp\\_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\TcPlatWebApp\\_Imports.razor",
               "RelativeDocumentMoniker": "TcPlatWebApp\\_Imports.razor",
-              "ToolTip": "C:\\Users\\adrio\\source\\repos\\TcPlatWebApp\\TcPlatWebApp\\_Imports.razor",
+              "ToolTip": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\TcPlatWebApp\\_Imports.razor",
               "RelativeToolTip": "TcPlatWebApp\\_Imports.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-14T08:02:31.083Z"
+              "WhenOpened": "2024-07-14T08:02:31.083Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
+              "Title": "EventConsole.razor",
+              "DocumentMoniker": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\TcPlatWebApp\\Shared\\EventConsole.razor",
+              "RelativeDocumentMoniker": "TcPlatWebApp\\Shared\\EventConsole.razor",
+              "ToolTip": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\TcPlatWebApp\\Shared\\EventConsole.razor",
+              "RelativeToolTip": "TcPlatWebApp\\Shared\\EventConsole.razor",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAEAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-20T06:36:06.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\adrio\\source\\repos\\TcPlatWebApp\\TcPlatWebApp\\wwwroot\\css\\site.css",
+              "DocumentMoniker": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\TcPlatWebApp\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "TcPlatWebApp\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\adrio\\source\\repos\\TcPlatWebApp\\TcPlatWebApp\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\TcPlatWebApp\\wwwroot\\css\\site.css",
               "RelativeToolTip": "TcPlatWebApp\\wwwroot\\css\\site.css",
               "ViewState": "AQIAAEkAAAAAAAAAAAAwwMkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -135,11 +306,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 15,
               "Title": "Index.razor",
-              "DocumentMoniker": "C:\\Users\\adrio\\source\\repos\\TcPlatWebApp\\TcPlatWebApp\\Pages\\Index.razor",
+              "DocumentMoniker": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\TcPlatWebApp\\Pages\\Index.razor",
               "RelativeDocumentMoniker": "TcPlatWebApp\\Pages\\Index.razor",
-              "ToolTip": "C:\\Users\\adrio\\source\\repos\\TcPlatWebApp\\TcPlatWebApp\\Pages\\Index.razor",
+              "ToolTip": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\TcPlatWebApp\\Pages\\Index.razor",
               "RelativeToolTip": "TcPlatWebApp\\Pages\\Index.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
