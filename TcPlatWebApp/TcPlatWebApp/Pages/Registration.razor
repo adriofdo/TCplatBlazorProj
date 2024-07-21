@@ -1,0 +1,60 @@
+﻿@page "/registrazione"
+
+<RadzenCard Style="max-width: 600px; margin: auto; padding: 20px;">
+    <RadzenTemplateForm TItem="RegistrationModel" Submit="OnSubmit">
+        <RadzenFieldset Legend="Modulo di Registrazione" Style="padding: 20px;">
+
+            
+            <RadzenLabel Text="Nome" Component="Nome" />
+            <RadzenTextBox @bind-Value="model.Nome" Name="Nome" Placeholder="Inserisci il nome" Style="width: 100%; margin-bottom: 20px;" />
+            <RadzenRequiredValidator Component="Nome" Text="Il nome è obbligatorio" Style="margin-bottom: 20px;" />
+            
+            <RadzenLabel Text="Cognome" Component="Cognome" />
+            <RadzenTextBox @bind-Value="model.Cognome" Name="Cognome" Placeholder="Inserisci il cognome" Style="width: 100%; margin-bottom: 20px;" />
+            <RadzenRequiredValidator Component="Cognome" Text="Il cognome è obbligatorio" Style="margin-bottom: 20px;" />
+            
+            <RadzenLabel Text="Data di Nascita" Component="DataDiNascita" />
+            <RadzenDatePicker @bind-Value="model.DataDiNascita" Name="DataDiNascita" Placeholder="Seleziona la data di nascita" Style="width: 100%; margin-bottom: 20px;" />
+            <RadzenRequiredValidator Component="DataDiNascita" Text="La data di nascita è obbligatoria" Style="margin-bottom: 20px;" />
+            
+            <RadzenLabel Text="Scuola" Component="Scuola" />
+            <RadzenTextBox @bind-Value="model.Scuola" Name="Scuola" Placeholder="Inserisci la scuola" Style="width: 100%; margin-bottom: 20px;" />
+            <RadzenRequiredValidator Component="Scuola" Text="La scuola è obbligatoria" Style="margin-bottom: 20px;" />
+            
+            <RadzenLabel Text="Indirizzo" Component="Indirizzo" />
+            <RadzenTextBox @bind-Value="model.Indirizzo" Name="Indirizzo" Placeholder="Inserisci l'indirizzo" Style="width: 100%; margin-bottom: 20px;" />
+            <RadzenRequiredValidator Component="Indirizzo" Text="L'indirizzo è obbligatorio" Style="margin-bottom: 20px;" />
+            
+            <RadzenLabel Text="Codice Fiscale" Component="CodiceFiscale" />
+            <RadzenTextBox @bind-Value="model.CodiceFiscale" Name="CodiceFiscale" Placeholder="Inserisci il codice fiscale" Style="width: 100%; margin-bottom: 20px;" />
+            <RadzenRequiredValidator Component="CodiceFiscale" Text="Il codice fiscale è obbligatorio" Style="margin-bottom: 20px;" />
+            
+            <RadzenLabel Text="Paese di Nascita" Component="PaeseDiNascita" />
+            <RadzenTextBox @bind-Value="model.PaeseDiNascita" Name="PaeseDiNascita" Placeholder="Inserisci il paese di nascita" Style="width: 100%; margin-bottom: 20px;" />
+            <RadzenRequiredValidator Component="PaeseDiNascita" Text="Il paese di nascita è obbligatorio" Style="margin-bottom: 20px;" />
+            
+            <RadzenButton Text="Registrati" ButtonType="ButtonType.Submit" Style="margin-top: 20px; width: 100%;" />
+        </RadzenFieldset>
+    </RadzenTemplateForm>
+</RadzenCard>
+
+
+@code {
+    private RegistrationModel model = new RegistrationModel();
+
+    private void OnSubmit(RegistrationModel model)
+    {
+        // Handle form submission logic here
+    }
+
+    public class RegistrationModel
+    {
+        public string Nome { get; set; }
+        public string Cognome { get; set; }
+        public DateTime DataDiNascita { get; set; }
+        public string Scuola { get; set; }
+        public string Indirizzo { get; set; }
+        public string CodiceFiscale { get; set; }
+        public string PaeseDiNascita { get; set; }
+    }
+}
