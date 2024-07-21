@@ -98,8 +98,7 @@
               "RelativeToolTip": "SQLDatAccessLibrary\\Anagrafici\\AnagraficiData.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-21T12:51:36.281Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-21T12:51:36.281Z"
             },
             {
               "$type": "Document",
@@ -111,8 +110,7 @@
               "RelativeToolTip": "SQLDatAccessLibrary\\Anagrafici\\AnagraficiModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-21T12:49:44.951Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-21T12:49:44.951Z"
             },
             {
               "$type": "Document",
@@ -122,7 +120,7 @@
               "RelativeDocumentMoniker": "TcPlatWebApp\\Pages\\AnagraficiGrid.razor",
               "ToolTip": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\TcPlatWebApp\\Pages\\AnagraficiGrid.razor",
               "RelativeToolTip": "TcPlatWebApp\\Pages\\AnagraficiGrid.razor",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB4AAAAFAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACAAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-20T10:18:40.914Z",
               "EditorCaption": ""
@@ -137,8 +135,7 @@
               "RelativeToolTip": "TcPlatWebApp\\Program.cs",
               "ViewState": "AQIAAAIAAAAAAAAAAAAwwBIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T17:19:17.55Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-14T17:19:17.55Z"
             },
             {
               "$type": "Document",
@@ -150,8 +147,7 @@
               "RelativeToolTip": "SQLDatAccessLibrary\\Login\\LoginData.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T16:36:53.015Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-14T16:36:53.015Z"
             },
             {
               "$type": "Document",
@@ -163,8 +159,7 @@
               "RelativeToolTip": "SQLDatAccessLibrary\\Login\\LoginModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T16:35:55.827Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-14T16:35:55.827Z"
             },
             {
               "$type": "Document",
@@ -176,8 +171,7 @@
               "RelativeToolTip": "TcPlatWebApp\\Shared\\NavMenu.razor",
               "ViewState": "AQIAAAYAAAAAAAAAAAAcwBUAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-14T16:33:45.571Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-14T16:33:45.571Z"
             },
             {
               "$type": "Document",
@@ -201,8 +195,7 @@
               "RelativeToolTip": "TcPlatWebApp\\Pages\\_Layout.cshtml",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-14T08:14:47.947Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-14T08:14:47.947Z"
             },
             {
               "$type": "Document",
@@ -226,8 +219,7 @@
               "RelativeToolTip": "TcPlatWebApp\\Pages\\Registration.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-14T16:22:39.547Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-14T16:22:39.547Z"
             },
             {
               "$type": "Document",
@@ -251,8 +243,7 @@
               "RelativeToolTip": "SQLDatAccessLibrary\\SqlDataAccess.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T09:06:14.799Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-14T09:06:14.799Z"
             },
             {
               "$type": "Document",
@@ -276,8 +267,7 @@
               "RelativeToolTip": "TcPlatWebApp\\_Imports.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-14T08:02:31.083Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-14T08:02:31.083Z"
             },
             {
               "$type": "Document",
@@ -289,8 +279,7 @@
               "RelativeToolTip": "TcPlatWebApp\\Shared\\EventConsole.razor",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAEAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-20T06:36:06.761Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-20T06:36:06.761Z"
             },
             {
               "$type": "Document",
