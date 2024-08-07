@@ -2388,11 +2388,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\TcPlatWebApp\\TcPlatWebApp.csproj",
+      "projectUniqueName": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TCplatBlazorProj\\TcPlatWebApp\\TcPlatWebApp\\TcPlatWebApp.csproj",
       "projectName": "TcPlatWebApp",
-      "projectPath": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\TcPlatWebApp\\TcPlatWebApp.csproj",
+      "projectPath": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TCplatBlazorProj\\TcPlatWebApp\\TcPlatWebApp\\TcPlatWebApp.csproj",
       "packagesPath": "C:\\Users\\adrio\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\TcPlatWebApp\\obj\\",
+      "outputPath": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TCplatBlazorProj\\TcPlatWebApp\\TcPlatWebApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2414,8 +2414,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\SQLDatAccessLibrary\\SQLDatAccessLibrary.csproj": {
-              "projectPath": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\SQLDatAccessLibrary\\SQLDatAccessLibrary.csproj"
+            "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TCplatBlazorProj\\TcPlatWebApp\\SQLDatAccessLibrary\\SQLDatAccessLibrary.csproj": {
+              "projectPath": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TCplatBlazorProj\\TcPlatWebApp\\SQLDatAccessLibrary\\SQLDatAccessLibrary.csproj"
             }
           }
         }

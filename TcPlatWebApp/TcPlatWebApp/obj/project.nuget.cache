@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "utziKNg2Z8E=",
+  "dgSpecHash": "nXE+xdDhEG4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\TcPlatWebApp\\TcPlatWebApp.csproj",
+  "projectFilePath": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TCplatBlazorProj\\TcPlatWebApp\\TcPlatWebApp\\TcPlatWebApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\adrio\\.nuget\\packages\\bouncycastle.cryptography\\2.3.1\\bouncycastle.cryptography.2.3.1.nupkg.sha512",
     "C:\\Users\\adrio\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
