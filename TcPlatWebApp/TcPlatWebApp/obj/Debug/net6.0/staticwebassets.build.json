@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NL93dam4PNmhMkvKiOjKvXMs5xH5JOzQooV4TOaJpgM=",
+  "Hash": "KTaIzbNrwtacnWya+VaVRahjwaWFl1SmLX/nhojeoEI=",
   "Source": "TcPlatWebApp",
   "BasePath": "_content/TcPlatWebApp",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "TcPlatWebApp\\wwwroot",
       "Source": "TcPlatWebApp",
-      "ContentRoot": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\TcPlatWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TCplatBlazorProj\\TcPlatWebApp\\TcPlatWebApp\\wwwroot\\",
       "BasePath": "_content/TcPlatWebApp",
       "Pattern": "**"
     }
@@ -948,10 +948,10 @@
       "OriginalItemSpec": "C:\\Users\\adrio\\.nuget\\packages\\radzen.blazor\\4.34.0\\staticwebassets\\Radzen.Blazor.js"
     },
     {
-      "Identity": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\TcPlatWebApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\TcPlatWebApp.styles.css",
+      "Identity": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TCplatBlazorProj\\TcPlatWebApp\\TcPlatWebApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\TcPlatWebApp.styles.css",
       "SourceId": "TcPlatWebApp",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\TcPlatWebApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TCplatBlazorProj\\TcPlatWebApp\\TcPlatWebApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/TcPlatWebApp",
       "RelativePath": "TcPlatWebApp.styles.css",
       "AssetKind": "All",
@@ -964,13 +964,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\TcPlatWebApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\TcPlatWebApp.styles.css"
+      "OriginalItemSpec": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TCplatBlazorProj\\TcPlatWebApp\\TcPlatWebApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\TcPlatWebApp.styles.css"
     },
     {
-      "Identity": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\TcPlatWebApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\TcPlatWebApp.bundle.scp.css",
+      "Identity": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TCplatBlazorProj\\TcPlatWebApp\\TcPlatWebApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\TcPlatWebApp.bundle.scp.css",
       "SourceId": "TcPlatWebApp",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\TcPlatWebApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TCplatBlazorProj\\TcPlatWebApp\\TcPlatWebApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/TcPlatWebApp",
       "RelativePath": "TcPlatWebApp.bundle.scp.css",
       "AssetKind": "All",
@@ -983,13 +983,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\TcPlatWebApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\TcPlatWebApp.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TCplatBlazorProj\\TcPlatWebApp\\TcPlatWebApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\TcPlatWebApp.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\TcPlatWebApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TCplatBlazorProj\\TcPlatWebApp\\TcPlatWebApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "TcPlatWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\TcPlatWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TCplatBlazorProj\\TcPlatWebApp\\TcPlatWebApp\\wwwroot\\",
       "BasePath": "_content/TcPlatWebApp",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -1005,10 +1005,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\TcPlatWebApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TCplatBlazorProj\\TcPlatWebApp\\TcPlatWebApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "TcPlatWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\TcPlatWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TCplatBlazorProj\\TcPlatWebApp\\TcPlatWebApp\\wwwroot\\",
       "BasePath": "_content/TcPlatWebApp",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1024,10 +1024,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\TcPlatWebApp\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TCplatBlazorProj\\TcPlatWebApp\\TcPlatWebApp\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "TcPlatWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\TcPlatWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TCplatBlazorProj\\TcPlatWebApp\\TcPlatWebApp\\wwwroot\\",
       "BasePath": "_content/TcPlatWebApp",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -1043,10 +1043,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\TcPlatWebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TCplatBlazorProj\\TcPlatWebApp\\TcPlatWebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "TcPlatWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\TcPlatWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TCplatBlazorProj\\TcPlatWebApp\\TcPlatWebApp\\wwwroot\\",
       "BasePath": "_content/TcPlatWebApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -1062,10 +1062,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\TcPlatWebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TCplatBlazorProj\\TcPlatWebApp\\TcPlatWebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "TcPlatWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\TcPlatWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TCplatBlazorProj\\TcPlatWebApp\\TcPlatWebApp\\wwwroot\\",
       "BasePath": "_content/TcPlatWebApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -1081,10 +1081,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\TcPlatWebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TCplatBlazorProj\\TcPlatWebApp\\TcPlatWebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "TcPlatWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\TcPlatWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TCplatBlazorProj\\TcPlatWebApp\\TcPlatWebApp\\wwwroot\\",
       "BasePath": "_content/TcPlatWebApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -1100,10 +1100,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\TcPlatWebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TCplatBlazorProj\\TcPlatWebApp\\TcPlatWebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "TcPlatWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\TcPlatWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TCplatBlazorProj\\TcPlatWebApp\\TcPlatWebApp\\wwwroot\\",
       "BasePath": "_content/TcPlatWebApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -1119,10 +1119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\TcPlatWebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TCplatBlazorProj\\TcPlatWebApp\\TcPlatWebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "TcPlatWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\TcPlatWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TCplatBlazorProj\\TcPlatWebApp\\TcPlatWebApp\\wwwroot\\",
       "BasePath": "_content/TcPlatWebApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -1138,10 +1138,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\TcPlatWebApp\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TCplatBlazorProj\\TcPlatWebApp\\TcPlatWebApp\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "TcPlatWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\TcPlatWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TCplatBlazorProj\\TcPlatWebApp\\TcPlatWebApp\\wwwroot\\",
       "BasePath": "_content/TcPlatWebApp",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -1157,10 +1157,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\TcPlatWebApp\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TCplatBlazorProj\\TcPlatWebApp\\TcPlatWebApp\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "TcPlatWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\TcPlatWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TCplatBlazorProj\\TcPlatWebApp\\TcPlatWebApp\\wwwroot\\",
       "BasePath": "_content/TcPlatWebApp",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -1176,10 +1176,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\TcPlatWebApp\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TCplatBlazorProj\\TcPlatWebApp\\TcPlatWebApp\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "TcPlatWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\TcPlatWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TCplatBlazorProj\\TcPlatWebApp\\TcPlatWebApp\\wwwroot\\",
       "BasePath": "_content/TcPlatWebApp",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -1195,10 +1195,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\TcPlatWebApp\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TCplatBlazorProj\\TcPlatWebApp\\TcPlatWebApp\\wwwroot\\css\\site.css",
       "SourceId": "TcPlatWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\TcPlatWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TCplatBlazorProj\\TcPlatWebApp\\TcPlatWebApp\\wwwroot\\",
       "BasePath": "_content/TcPlatWebApp",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -1214,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\TcPlatWebApp\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TCplatBlazorProj\\TcPlatWebApp\\TcPlatWebApp\\wwwroot\\favicon.ico",
       "SourceId": "TcPlatWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\TcPlatWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TCplatBlazorProj\\TcPlatWebApp\\TcPlatWebApp\\wwwroot\\",
       "BasePath": "_content/TcPlatWebApp",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -1233,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\TcPlatWebApp\\wwwroot\\images\\Logo_tutticolori.png",
+      "Identity": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TCplatBlazorProj\\TcPlatWebApp\\TcPlatWebApp\\wwwroot\\images\\Logo_tutticolori.png",
       "SourceId": "TcPlatWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TcPlatWebApp\\TcPlatWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TCplatBlazorProj\\TcPlatWebApp\\TcPlatWebApp\\wwwroot\\",
       "BasePath": "_content/TcPlatWebApp",
       "RelativePath": "images/Logo_tutticolori.png",
       "AssetKind": "All",
