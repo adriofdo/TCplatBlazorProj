@@ -18,7 +18,7 @@ namespace SQLDatAccessLibrary.Anagrafici
 
         public Task<List<AnagraficiModel>> GetAnagrafici()
         {
-            string sql = "SELECT * from tblInfoAnagrafici ";
+            string sql = "SELECT * from dbo.tblInfoAnagrafici ";
             return _db.LoadData<AnagraficiModel, dynamic>(sql, new { });
         }
 

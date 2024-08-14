@@ -2,81 +2,28 @@
 @using SQLDatAccessLibrary.Anagrafici
 @inject IAnagraficiData anagraficiData
 
-<RadzenDataGrid @bind-Value=@selectedItems Data="@data" TItem="IDictionary<string, object>" ColumnWidth="200px"
+<RadzenDataGrid @bind-Value=@selectedItems Data="@data" TItem="AnagraficiModel" ColumnWidth="200px"
                 AllowFiltering="true" FilterPopupRenderMode="PopupRenderMode.OnDemand" FilterMode="FilterMode.Advanced" AllowPaging="true" AllowSorting="true">
     <Columns>
-        @foreach (var column in columns)
-        {
-            <RadzenDataGridColumn @key=@column.Key Title="@column.Key" Type="column.Value"
-                                  Property="@GetColumnPropertyExpression(column.Key, column.Value)">
-                <Template>
-                    @context[@column.Key]
-                </Template>
-            </RadzenDataGridColumn>
-        }
+        <RadzenDataGridColumn TItem="AnagraficiModel" Property="ID" Title="ID" />
+        <RadzenDataGridColumn TItem="AnagraficiModel" Property="Nome" Title="Nome" />
+        <RadzenDataGridColumn TItem="AnagraficiModel" Property="Cognome" Title="Cognome" />
+        <RadzenDataGridColumn TItem="AnagraficiModel" Property="DataDiNascita" Title="Data Di Nascita" />
+        <RadzenDataGridColumn TItem="AnagraficiModel" Property="Scuola" Title="Scuola" />
+        <RadzenDataGridColumn TItem="AnagraficiModel" Property="Indirizzo" Title="Indirizzo" />
+        <RadzenDataGridColumn TItem="AnagraficiModel" Property="CodiceFiscale" Title="Codice Fiscale" />
+        <RadzenDataGridColumn TItem="AnagraficiModel" Property="PaeseDiNascita" Title="Paese Di Nascita" />
     </Columns>
 </RadzenDataGrid>
 
 @code {
-    IList<IDictionary<string, object>> selectedItems;
+    IList<AnagraficiModel> selectedItems;
 
-    public IEnumerable<IDictionary<string, object>> data { get; set; }
-
-    public IDictionary<string, Type> columns { get; set; }
-
-    public enum EnumTest
-    {
-        EnumValue1,
-        EnumValue2
-    }
-
-    public string GetColumnPropertyExpression(string name, Type type)
-    {
-        var expression = $@"it[""{name}""].ToString()";
-
-        if (type == typeof(int))
-        {
-            return $"int.Parse({expression})";
-        }
-        else if (type == typeof(DateTime))
-        {
-            return $"DateTime.Parse({expression})";
-        }
-        else if (type.IsEnum)
-        {
-            return $@"Int32(Enum.Parse(it[""{name}""].GetType(), {expression}))";
-        }
-
-        return expression;
-    }
+    public IEnumerable<AnagraficiModel> data { get; set; }
 
     protected override async Task OnInitializedAsync()
     {
         await base.OnInitializedAsync();
-
-        columns = new Dictionary<string, Type>()
-        {
-            { "ID", typeof(int) },
-            { "Nome", typeof(string) },
-            { "Cognome", typeof(string) },
-            { "DataDiNascita", typeof(DateTime) },
-            { "Scuola", typeof(string) },
-            { "Indirizzo", typeof(string) },
-            { "CodiceFiscale", typeof(string) },
-            { "PaeseDiNascita", typeof(string) },
-        };
-
-        var anagraficiList = await anagraficiData.GetAnagrafici();
-        data = anagraficiList.Select(a => new Dictionary<string, object>
-        {
-            { "ID", a.ID },
-            { "Nome", a.Nome },
-            { "Cognome", a.Cognome },
-            { "DataDiNascita", a.DataDiNascita },
-            { "Scuola", a.Scuola },
-            { "Indirizzo", a.Indirizzo },
-            { "CodiceFiscale", a.CodiceFiscale },
-            { "PaeseDiNascita", a.PaeseDiNascita }
-        }).ToList();
+        data = await anagraficiData.GetAnagrafici();
     }
 }
