@@ -11,7 +11,7 @@ public class LoginData : ILoginData
 
     public async Task<int> ValidateLoginAsync(string username, string password)
     {
-        string sql = "SELECT COUNT(*) FROM [User] WHERE Username = @Username AND Password = @Password";
+        string sql = "SELECT COUNT(*) FROM [dbo].[User] WHERE Username = @Username AND Password = @Password";
         var result = await _db.LoadData<int, dynamic>(sql, new { Username = username, Password = password });
         return result.FirstOrDefault();
     }

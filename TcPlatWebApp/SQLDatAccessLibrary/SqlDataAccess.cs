@@ -13,8 +13,8 @@ namespace SQLDatAccessLibrary
     public class SqlDataAccess : ISqlDataAccess
     {
         private readonly IConfiguration _config;
-        public string ConnectionString { get; set; } = "Server=servertc-25c772c3-adriotcplat2024.a.aivencloud.com;Port=20877;Database=Tcplat;Uid=avnadmin;Pwd=AVNS_ohq66m2-xD5dt9ouwg8;SSL Mode=Required;CertificateFile=ca.pem";
-
+        //public string ConnectionString { get; set; } = "Server=servertc-25c772c3-adriotcplat2024.a.aivencloud.com;Port=20877;Database=Tcplat;Uid=avnadmin;Pwd=AVNS_ohq66m2-xD5dt9ouwg8;SSL Mode=Required;CertificateFile=ca.pem";
+        public string ConnectionString { get; set; } = "Data Source=18.156.83.191; Initial Catalog =  Tcplat; User ID = sa; Password=Lucia12!";
         public SqlDataAccess(IConfiguration config)
         {
             _config = config;

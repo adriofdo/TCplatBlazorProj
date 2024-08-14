@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 using SQLDatAccessLibrary;
 using SQLDatAccessLibrary.Anagrafici;
-using TcPlatWebApp.Data;
+
 
 
 
@@ -12,7 +12,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
-builder.Services.AddSingleton<WeatherForecastService>();
+
 builder.Services.AddTransient<ISqlDataAccess,SqlDataAccess>();
 builder.Services.AddTransient<ILoginData,LoginData>();
 builder.Services.AddScoped<IAnagraficiData,AnagraficiData>();
