@@ -1,5 +1,6 @@
 ﻿@page "/anagrafici"
 @using SQLDatAccessLibrary.Anagrafici
+@attribute [Authorize]
 @inject IAnagraficiData anagraficiData
 
 <RadzenDataGrid @bind-Value=@selectedItems Data="@data" TItem="AnagraficiModel" ColumnWidth="200px"

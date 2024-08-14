@@ -1,60 +1,105 @@
 ﻿@page "/registrazione"
+@using SQLDatAccessLibrary.Anagrafici
+@inject IRegistrazioneData registrazioneData
 
 <RadzenCard Style="max-width: 600px; margin: auto; padding: 20px;">
-    <RadzenTemplateForm TItem="RegistrationModel" Submit="OnSubmit">
+    <RadzenTemplateForm TItem="RegistrationModel" @onsubmit="OnSubmit">
         <RadzenFieldset Legend="Modulo di Registrazione" Style="padding: 20px;">
 
-            
             <RadzenLabel Text="Nome" Component="Nome" />
             <RadzenTextBox @bind-Value="model.Nome" Name="Nome" Placeholder="Inserisci il nome" Style="width: 100%; margin-bottom: 20px;" />
             <RadzenRequiredValidator Component="Nome" Text="Il nome è obbligatorio" Style="margin-bottom: 20px;" />
-            
+
             <RadzenLabel Text="Cognome" Component="Cognome" />
             <RadzenTextBox @bind-Value="model.Cognome" Name="Cognome" Placeholder="Inserisci il cognome" Style="width: 100%; margin-bottom: 20px;" />
             <RadzenRequiredValidator Component="Cognome" Text="Il cognome è obbligatorio" Style="margin-bottom: 20px;" />
-            
+
             <RadzenLabel Text="Data di Nascita" Component="DataDiNascita" />
             <RadzenDatePicker @bind-Value="model.DataDiNascita" Name="DataDiNascita" Placeholder="Seleziona la data di nascita" Style="width: 100%; margin-bottom: 20px;" />
             <RadzenRequiredValidator Component="DataDiNascita" Text="La data di nascita è obbligatoria" Style="margin-bottom: 20px;" />
-            
+
             <RadzenLabel Text="Scuola" Component="Scuola" />
             <RadzenTextBox @bind-Value="model.Scuola" Name="Scuola" Placeholder="Inserisci la scuola" Style="width: 100%; margin-bottom: 20px;" />
             <RadzenRequiredValidator Component="Scuola" Text="La scuola è obbligatoria" Style="margin-bottom: 20px;" />
-            
+
             <RadzenLabel Text="Indirizzo" Component="Indirizzo" />
             <RadzenTextBox @bind-Value="model.Indirizzo" Name="Indirizzo" Placeholder="Inserisci l'indirizzo" Style="width: 100%; margin-bottom: 20px;" />
             <RadzenRequiredValidator Component="Indirizzo" Text="L'indirizzo è obbligatorio" Style="margin-bottom: 20px;" />
-            
+
             <RadzenLabel Text="Codice Fiscale" Component="CodiceFiscale" />
             <RadzenTextBox @bind-Value="model.CodiceFiscale" Name="CodiceFiscale" Placeholder="Inserisci il codice fiscale" Style="width: 100%; margin-bottom: 20px;" />
             <RadzenRequiredValidator Component="CodiceFiscale" Text="Il codice fiscale è obbligatorio" Style="margin-bottom: 20px;" />
-            
+
             <RadzenLabel Text="Paese di Nascita" Component="PaeseDiNascita" />
             <RadzenTextBox @bind-Value="model.PaeseDiNascita" Name="PaeseDiNascita" Placeholder="Inserisci il paese di nascita" Style="width: 100%; margin-bottom: 20px;" />
             <RadzenRequiredValidator Component="PaeseDiNascita" Text="Il paese di nascita è obbligatorio" Style="margin-bottom: 20px;" />
-            
-            <RadzenButton Text="Registrati" ButtonType="ButtonType.Submit" Style="margin-top: 20px; width: 100%;" />
+
+            <RadzenLabel Text="Username" Component="Username" />
+            <RadzenTextBox @bind-Value="model.Username" Name="Username" Placeholder="Inserisci il nome utente" Style="width: 100%; margin-bottom: 20px;" />
+            <RadzenRequiredValidator Component="Username" Text="Il nome utente è obbligatorio" Style="margin-bottom: 20px;" />
+
+            <RadzenLabel Text="Password" Component="Password" />
+            <RadzenPassword @bind-Value="model.Pwd" Name="Password" Placeholder="Inserisci la password" Style="width: 100%; margin-bottom: 20px;" />
+            <RadzenRequiredValidator Component="Password" Text="La password è obbligatoria" Style="margin-bottom: 20px;" />
+
+            <RadzenLabel Text="Conferma Password" Component="ConfirmPassword" />
+            <RadzenPassword @bind-Value="model.ConfirmPwd" Name="ConfirmPassword" Placeholder="Conferma la password" Style="width: 100%; margin-bottom: 20px;" />
+            <RadzenRequiredValidator Component="ConfirmPassword" Text="La conferma della password è obbligatoria" Style="margin-bottom: 20px;" />
+
+            <RadzenButton Text="Registrati" ButtonType="ButtonType.Submit" @onclick="OnSubmit" Style="margin-top: 20px; width: 100%;" />
         </RadzenFieldset>
     </RadzenTemplateForm>
-</RadzenCard>
 
+    <!-- Success and Error Messages -->
+    @if (isSuccessVisible)
+    {
+        <RadzenAlert Text="Registrazione avvenuta con successo!" Severity="AlertSeverity.Success" />
+    }
+
+    @if (isErrorVisible)
+    {
+        <RadzenAlert Text="@errorMessage" Severity="AlertSeverity.Error" />
+    }
+</RadzenCard>
 
 @code {
     private RegistrationModel model = new RegistrationModel();
+    private bool isSuccessVisible = false;
+    private bool isErrorVisible = false;
+    private string errorMessage;
 
-    private void OnSubmit(RegistrationModel model)
+    private async Task OnSubmit()
     {
-        // Handle form submission logic here
-    }
+        isSuccessVisible = false;
+        isErrorVisible = false;
 
-    public class RegistrationModel
-    {
-        public string Nome { get; set; }
-        public string Cognome { get; set; }
-        public DateTime DataDiNascita { get; set; }
-        public string Scuola { get; set; }
-        public string Indirizzo { get; set; }
-        public string CodiceFiscale { get; set; }
-        public string PaeseDiNascita { get; set; }
+        if (model.Pwd != model.ConfirmPwd)
+        {
+            errorMessage = "Le password non corrispondono.";
+            isErrorVisible = true;
+            return;
+        }
+
+        try
+        {
+            await registrazioneData.InsertRegistrazione(model);
+            isSuccessVisible = true;
+        }
+        catch (Microsoft.Data.SqlClient.SqlException sqlEx)
+        {
+            // Log detailed SQL exception information
+            errorMessage = $"SQL Error: {sqlEx.Message} (Error Number: {sqlEx.Number}, Line Number: {sqlEx.LineNumber})";
+            Console.WriteLine(errorMessage);
+            Console.WriteLine($"Stack Trace: {sqlEx.StackTrace}");
+            isErrorVisible = true;
+        }
+        catch (Exception ex)
+        {
+            // Log general exception information
+            errorMessage = $"General Error: {ex.Message}";
+            Console.WriteLine($"General Error: {ex.Message}");
+            Console.WriteLine($"Stack Trace: {ex.StackTrace}");
+            isErrorVisible = true;
+        }
     }
 }
