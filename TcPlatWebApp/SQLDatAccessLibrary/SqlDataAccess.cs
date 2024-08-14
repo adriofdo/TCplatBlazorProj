@@ -25,5 +25,13 @@ namespace SQLDatAccessLibrary
                 return data.ToList();
             }
         }
+
+        public async Task SaveData<T>(string sql, T parameters)
+        {
+            using (IDbConnection connection = new SqlConnection(ConnectionString))
+            {
+                await connection.ExecuteAsync(sql, parameters);
+            }
+        }
     }
 }
