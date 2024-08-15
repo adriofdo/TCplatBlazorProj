@@ -1,6 +1,7 @@
 ﻿@page "/registrazione"
 @using SQLDatAccessLibrary.Anagrafici
 @inject IRegistrazioneData registrazioneData
+@inject IJSRuntime JSRuntime
 
 <RadzenCard Style="max-width: 600px; margin: auto; padding: 20px;">
     <RadzenTemplateForm TItem="RegistrationModel" @onsubmit="OnSubmit">
@@ -15,7 +16,11 @@
             <RadzenRequiredValidator Component="Cognome" Text="Il cognome è obbligatorio" Style="margin-bottom: 20px;" />
 
             <RadzenLabel Text="Data di Nascita" Component="DataDiNascita" />
-            <RadzenDatePicker @bind-Value="model.DataDiNascita" Name="DataDiNascita" Placeholder="Seleziona la data di nascita" Style="width: 100%; margin-bottom: 20px;" />
+            <RadzenDatePicker @bind-Value="model.DataDiNascita" Name="DataDiNascita"
+                              Placeholder="Seleziona la data di nascita"
+                              ShowTime="false"
+                              DateFormat="dd/MM/yyyy"
+                              Style="width: 100%; margin-bottom: 20px;" />
             <RadzenRequiredValidator Component="DataDiNascita" Text="La data di nascita è obbligatoria" Style="margin-bottom: 20px;" />
 
             <RadzenLabel Text="Scuola" Component="Scuola" />
@@ -84,6 +89,12 @@
         {
             await registrazioneData.InsertRegistrazione(model);
             isSuccessVisible = true;
+
+            // Show a success message in a popup dialog using JavaScript alert
+            await JSRuntime.InvokeVoidAsync("alert", "Registrazione avvenuta con successo!");
+
+            // Reset the model to clear the form
+            model = new RegistrationModel();
         }
         catch (Microsoft.Data.SqlClient.SqlException sqlEx)
         {
