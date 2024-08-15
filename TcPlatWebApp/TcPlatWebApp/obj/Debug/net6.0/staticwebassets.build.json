@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "elAXw+0Lb8SCfXS/w1NB5TYHfRmCiQfc8Mw80vRzrAc=",
+  "Hash": "P/1DwDqfiimCSe+ZCsghEES5Cu4sioj7N/g0NNSgiNU=",
   "Source": "TcPlatWebApp",
   "BasePath": "_content/TcPlatWebApp",
   "Mode": "Default",
@@ -2390,6 +2390,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\Logo_tutticolori.png"
+    },
+    {
+      "Identity": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TCplatBlazorProj\\TcPlatWebApp\\TcPlatWebApp\\wwwroot\\js\\Regisjs.js",
+      "SourceId": "TcPlatWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TCplatBlazorProj\\TcPlatWebApp\\TcPlatWebApp\\wwwroot\\",
+      "BasePath": "_content/TcPlatWebApp",
+      "RelativePath": "js/Regisjs.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Regisjs.js"
     }
   ]
 }
