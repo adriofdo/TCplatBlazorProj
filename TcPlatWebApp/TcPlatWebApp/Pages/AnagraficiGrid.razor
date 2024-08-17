@@ -3,19 +3,27 @@
 @attribute [Authorize]
 @inject IAnagraficiData anagraficiData
 
-<RadzenDataGrid @bind-Value=@selectedItems Data="@data" TItem="AnagraficiModel" ColumnWidth="200px"
-                AllowFiltering="true" FilterPopupRenderMode="PopupRenderMode.OnDemand" FilterMode="FilterMode.Advanced" AllowPaging="true" AllowSorting="true">
-    <Columns>
-        <RadzenDataGridColumn TItem="AnagraficiModel" Property="ID" Title="ID" />
-        <RadzenDataGridColumn TItem="AnagraficiModel" Property="Nome" Title="Nome" />
-        <RadzenDataGridColumn TItem="AnagraficiModel" Property="Cognome" Title="Cognome" />
-        <RadzenDataGridColumn TItem="AnagraficiModel" Property="DataDiNascita" Title="Data Di Nascita" />
-        <RadzenDataGridColumn TItem="AnagraficiModel" Property="Scuola" Title="Scuola" />
-        <RadzenDataGridColumn TItem="AnagraficiModel" Property="Indirizzo" Title="Indirizzo" />
-        <RadzenDataGridColumn TItem="AnagraficiModel" Property="CodiceFiscale" Title="Codice Fiscale" />
-        <RadzenDataGridColumn TItem="AnagraficiModel" Property="PaeseDiNascita" Title="Paese Di Nascita" />
-    </Columns>
-</RadzenDataGrid>
+<AuthorizeView>
+    <Authorized>
+        <p>You are authenticated!</p>
+        <RadzenDataGrid @bind-Value=@selectedItems Data="@data" TItem="AnagraficiModel" ColumnWidth="200px"
+                        AllowFiltering="true" FilterPopupRenderMode="PopupRenderMode.OnDemand" FilterMode="FilterMode.Advanced" AllowPaging="true" AllowSorting="true">
+            <Columns>
+                <RadzenDataGridColumn TItem="AnagraficiModel" Property="ID" Title="ID" />
+                <RadzenDataGridColumn TItem="AnagraficiModel" Property="Nome" Title="Nome" />
+                <RadzenDataGridColumn TItem="AnagraficiModel" Property="Cognome" Title="Cognome" />
+                <RadzenDataGridColumn TItem="AnagraficiModel" Property="DataDiNascita" Title="Data Di Nascita" />
+                <RadzenDataGridColumn TItem="AnagraficiModel" Property="Scuola" Title="Scuola" />
+                <RadzenDataGridColumn TItem="AnagraficiModel" Property="Indirizzo" Title="Indirizzo" />
+            @*     <RadzenDataGridColumn TItem="AnagraficiModel" Property="CodiceFiscale" Title="Codice Fiscale" /> *@
+                <RadzenDataGridColumn TItem="AnagraficiModel" Property="PaeseDiNascita" Title="Paese Di Nascita" />
+            </Columns>
+        </RadzenDataGrid>
+    </Authorized>
+    <NotAuthorized>
+        <p>You are not authorized to view this page.</p>
+    </NotAuthorized>
+</AuthorizeView>
 
 @code {
     IList<AnagraficiModel> selectedItems;

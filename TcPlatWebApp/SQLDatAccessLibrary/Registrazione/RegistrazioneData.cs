@@ -18,8 +18,8 @@ namespace SQLDatAccessLibrary.Anagrafici
 
             string sql = @"
                 INSERT INTO dbo.tblInfoAnagrafici 
-                (Nome, Cognome, DataDiNascita, Scuola, Indirizzo, CodiceFiscale, PaeseDiNascita, Username, Pwd)
-                VALUES (@Nome, @Cognome, @DataDiNascita, @Scuola, @Indirizzo, @CodiceFiscale, @PaeseDiNascita, @Username, @Pwd);";
+                (Nome, Cognome, DataDiNascita, Scuola, Indirizzo, CodiceFiscale, PaeseDiNascita, Username, Pwd, ActState)
+                VALUES (@Nome, @Cognome, @DataDiNascita, @Scuola, @Indirizzo, @CodiceFiscale, @PaeseDiNascita, @Username, @Pwd, '0');";
 
             // Creating a parameter object that includes the encrypted password
             var parameters = new

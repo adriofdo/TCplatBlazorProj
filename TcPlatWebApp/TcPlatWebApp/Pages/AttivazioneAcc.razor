@@ -1,0 +1,49 @@
+﻿@page "/activateaccounts"
+@inject IRegistrazioneData RegistrazioneData
+@inject ISqlDataAccess SqlDataAccess
+@attribute [Authorize(Roles = "Admin")]
+@using SQLDatAccessLibrary
+@using SQLDatAccessLibrary.Anagrafici
+
+<h3>Activate Inactive Accounts</h3>
+
+<RadzenGrid Data="@users" TItem="UserModel" AllowPaging="true" PageSize="10" AllowSorting="true" AllowFiltering="true">
+    <Columns>
+        <RadzenGridColumn TItem="UserModel" Property="Nome" Title="Nome" />
+        <RadzenGridColumn TItem="UserModel" Property="Cognome" Title="Cognome" />
+        <RadzenGridColumn TItem="UserModel" Property="Username" Title="Username" />
+        <RadzenGridColumn TItem="UserModel" Property="RoleUsr" Title="Role" />
+        <RadzenGridColumn TItem="UserModel" Context="user">
+            <Template Context="user">
+                <RadzenButton Text="Activate" Click="@(() => ActivateAccount(user))" Disabled="@(user.ActState)" Style="margin-left: 10px;" />
+            </Template>
+        </RadzenGridColumn>
+    </Columns>
+</RadzenGrid>
+
+@code {
+    private List<UserModel> users;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadUsers();
+    }
+
+    private async Task LoadUsers()
+    {
+        string sql = "SELECT * FROM dbo.tblInfoAnagrafici WHERE ActState = 0";
+        users = await SqlDataAccess.LoadData<UserModel, dynamic>(sql, new { });
+    }
+
+    private async Task ActivateAccount(UserModel user)
+    {
+        // Update the ActState to 1 and assign a role
+        user.ActState = true; // Activate the user
+        user.RoleUsr = "User"; // Assign a default role (change as needed)
+
+        string sql = "UPDATE dbo.tblInfoAnagrafici SET ActState = 1, RoleUsr = @RoleUsr WHERE Id = @Id";
+        await SqlDataAccess.SaveData(sql, new { user.RoleUsr, user.Id });
+
+        await LoadUsers(); // Reload users to reflect changes in the grid
+    }
+}

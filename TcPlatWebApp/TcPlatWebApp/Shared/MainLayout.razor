@@ -1,4 +1,5 @@
 ﻿@inherits LayoutComponentBase
+@inject NavigationManager NavigationManager
 
 <PageTitle>TcPlatWebApp</PageTitle>
 
@@ -8,8 +9,11 @@
     </div>
 
     <main>
-        <div class="top-row px-4">
-            <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a>
+        <div class="top-row px-4 d-flex justify-content-between align-items-center">
+         
+            <button class="btn btn-secondary" @onclick="RefreshPage" title="Refresh">
+                <i class="fas fa-sync-alt"></i> Refresh
+            </button>
         </div>
 
         <article class="content px-4">
@@ -17,3 +21,11 @@
         </article>
     </main>
 </div>
+
+@code {
+    private void RefreshPage()
+    {
+        // Reload the current page
+        NavigationManager.NavigateTo(NavigationManager.Uri, forceLoad: true);
+    }
+}

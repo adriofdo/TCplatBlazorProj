@@ -1,8 +1,13 @@
 ﻿@page "/"
-@namespace System.Diagnostics
+@namespace TcPlatWebApp.Pages
+
+@using Microsoft.AspNetCore.Components.Server.ProtectedBrowserStorage
 @using SQLDatAccessLibrary.Login
+@using TcPlatWebApp.Authentication
 @inject NavigationManager Navigation
 @inject ILoginData loginData
+@inject CustomAuthenticationStateProvider AuthenticationStateProvider
+@inject ProtectedSessionStorage ProtectedSessionStorage
 
 <RadzenRow Gap="0" Class="rz-my-12 rz-mx-auto rz-border-radius-6 rz-shadow-10" Style="width: 100%; max-width: 800px; overflow: hidden;">
     <RadzenColumn Size="12" SizeMD="6">
@@ -43,6 +48,18 @@
         if (loginResult > 0)
         {
             console.Log($"{name} -> Successful login for user: {args.Username}");
+
+            // Update the authentication state
+            var userSession = new UserSession
+                {
+                    Username = args.Username,
+                    Role = "User", // Set the user's role here
+                    SessionStartTime = DateTime.UtcNow
+                };
+
+            await ProtectedSessionStorage.SetAsync("UserSession", userSession);
+            await AuthenticationStateProvider.UpdateAuthenticationState(userSession);
+
             Navigation.NavigateTo("/anagrafici");
         }
         else
