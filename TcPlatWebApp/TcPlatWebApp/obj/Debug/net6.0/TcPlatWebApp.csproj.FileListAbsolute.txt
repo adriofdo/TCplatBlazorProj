@@ -213,3 +213,5 @@ C:\Users\adrio\OneDrive\Desktop\tutticolori\TCplatBlazorProj\TcPlatWebApp\TcPlat
 C:\Users\adrio\OneDrive\Desktop\tutticolori\TCplatBlazorProj\TcPlatWebApp\TcPlatWebApp\obj\Debug\net6.0\TcPlatWebApp.pdb
 C:\Users\adrio\OneDrive\Desktop\tutticolori\TCplatBlazorProj\TcPlatWebApp\TcPlatWebApp\obj\Debug\net6.0\TcPlatWebApp.genruntimeconfig.cache
 C:\Users\adrio\OneDrive\Desktop\tutticolori\TCplatBlazorProj\TcPlatWebApp\TcPlatWebApp\obj\Debug\net6.0\ref\TcPlatWebApp.dll
+C:\Users\adrio\OneDrive\Desktop\tutticolori\TCplatBlazorProj\TcPlatWebApp\TcPlatWebApp\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\adrio\OneDrive\Desktop\tutticolori\TCplatBlazorProj\TcPlatWebApp\TcPlatWebApp\obj\Debug\net6.0\TcPlatWebApp.MvcApplicationPartsAssemblyInfo.cs

@@ -18,7 +18,7 @@ namespace SQLDatAccessLibrary
             // Hash the input password using SHA-256
             string hashedPassword = HashPassword(password);
 
-            string sql = "SELECT COUNT(*) FROM [dbo].[tblInfoAnagrafici] WHERE Username = @Username AND Pwd = @Password";
+            string sql = "SELECT COUNT(*) FROM [dbo].[tblInfoAnagrafici] WHERE Username = @Username AND Pwd = @Password And ActState='1'";
             var result = await _db.LoadData<int, dynamic>(sql, new { Username = username, Password = hashedPassword });
             return result.FirstOrDefault();
         }

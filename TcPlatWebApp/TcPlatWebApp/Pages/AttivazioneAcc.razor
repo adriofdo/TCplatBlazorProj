@@ -1,0 +1,118 @@
+﻿@page "/activateaccounts"
+@inject IRegistrazioneData RegistrazioneData
+@inject ISqlDataAccess SqlDataAccess
+@inject AuthenticationStateProvider AuthenticationStateProvider
+@attribute [Authorize(Roles = "Admin")]
+@using SQLDatAccessLibrary
+@using SQLDatAccessLibrary.Anagrafici
+@using System.Security.Claims
+
+<h3>Non é autorizzato per il ruolo Corrente contatta Amministratore</h3>
+
+<AuthorizeView Roles="Admin">
+    <Authorized>
+        <h3>Attiva gli Account Tutticolori</h3>
+
+        <!-- Display the current user's username, role, and the actual password if available -->
+        @* <label>Username: @username | Role: @userRole | Password: @passwordPlaceholder</label> *@
+
+        @if (!string.IsNullOrEmpty(errorMessage))
+        {
+            <div style="color: red;">@errorMessage</div>
+        }
+
+        <RadzenGrid Data="@users" TItem="UserModel" AllowPaging="true" PageSize="10" AllowSorting="true" AllowFiltering="true">
+            <Columns>
+                <RadzenGridColumn TItem="UserModel" Property="Nome" Title="Nome" />
+                <RadzenGridColumn TItem="UserModel" Property="Cognome" Title="Cognome" />
+                <RadzenGridColumn TItem="UserModel" Property="Scuola" Title="Scuola" />
+                <RadzenGridColumn TItem="UserModel" Property="DataDiNascita" Title="Data Di nascità" />
+                <RadzenGridColumn TItem="UserModel" Property="Username" Title="Username" />
+
+                <RadzenGridColumn TItem="UserModel" Property="Role" Title="Role" />
+                <RadzenGridColumn TItem="UserModel" Context="user">
+                    <Template Context="user">
+                        <RadzenDropDown Data="@roles" TItem="string" @bind-Value="selectedRole" Placeholder="Scegli il ruolo" />
+                        <RadzenButton Text="Activate" Click="@(() => ActivateAccount(user))" Disabled="@(user.ActState)" Style="margin-left: 10px;" />
+                        <RadzenButton Text="Deny" ButtonStyle="ButtonStyle.Danger" Click="@(() => DenyAccount(user))" Style="margin-left: 10px;" />
+                    </Template>
+                </RadzenGridColumn>
+            </Columns>
+        </RadzenGrid>
+    </Authorized>
+</AuthorizeView>
+
+@code {
+    private List<UserModel> users;
+    private string username;
+    private string userRole;
+    private string passwordPlaceholder = "********"; // Default to placeholder unless actual password is available
+    private string selectedRole;
+    private string errorMessage;
+    private List<string> roles = new List<string> { "Admin", "User", "Guest" }; // Add roles here
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadUsers();
+        await LoadUserDetails();
+    }
+
+    private async Task LoadUsers()
+    {
+        string sql = "SELECT * FROM dbo.tblInfoAnagrafici WHERE ActState = 0";
+        users = await SqlDataAccess.LoadData<UserModel, dynamic>(sql, new { });
+    }
+
+    private async Task ActivateAccount(UserModel user)
+    {
+        if (string.IsNullOrEmpty(selectedRole))
+        {
+            errorMessage = "Scegli il ruolo";
+            return;
+        }
+
+        // Update the ActState to 1 and assign the selected role
+        user.ActState = true;
+        user.Role = selectedRole; // Assign the selected role
+
+        string sql = "UPDATE dbo.tblInfoAnagrafici SET ActState = 1, Role = @Role WHERE Id = @Id";
+        await SqlDataAccess.SaveData(sql, new { user.Role, user.Id });
+
+        errorMessage = string.Empty; // Clear any previous error message
+        selectedRole = null; // Reset role selection after activation
+        await LoadUsers(); // Reload users to reflect changes in the grid
+    }
+
+    private async Task DenyAccount(UserModel user)
+    {
+        // Delete the user from the database
+        string sql = "DELETE FROM dbo.tblInfoAnagrafici WHERE Id = @Id";
+        await SqlDataAccess.SaveData(sql, new { user.Id });
+
+        await LoadUsers(); // Reload users to reflect changes in the grid
+    }
+
+    private async Task LoadUserDetails()
+    {
+        var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+        var user = authState.User;
+
+        if (user.Identity.IsAuthenticated)
+        {
+            username = user.FindFirst(c => c.Type == ClaimTypes.Name)?.Value ?? "Unknown";
+            userRole = user.FindFirst(c => c.Type == ClaimTypes.Role)?.Value ?? "No Role Assigned";
+
+            var passwordClaim = user.FindFirst(c => c.Type == "password");
+            if (passwordClaim != null)
+            {
+                passwordPlaceholder = passwordClaim.Value; // This will display the actual password
+            }
+        }
+        else
+        {
+            username = "Not authenticated";
+            userRole = "Not authenticated";
+            passwordPlaceholder = "N/A";
+        }
+    }
+}

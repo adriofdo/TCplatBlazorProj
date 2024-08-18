@@ -15,6 +15,7 @@ C:\Users\adrio\OneDrive\Desktop\tutticolori\TCplatBlazorProj\TcPlatWebApp\TcPlat
 C:\Users\adrio\OneDrive\Desktop\tutticolori\TCplatBlazorProj\TcPlatWebApp\TcPlatWebApp\obj\Release\net6.0\PubTmp\Out\K4os.Hash.xxHash.dll
 C:\Users\adrio\OneDrive\Desktop\tutticolori\TCplatBlazorProj\TcPlatWebApp\TcPlatWebApp\obj\Release\net6.0\PubTmp\Out\Microsoft.AspNetCore.Authorization.dll
 C:\Users\adrio\OneDrive\Desktop\tutticolori\TCplatBlazorProj\TcPlatWebApp\TcPlatWebApp\obj\Release\net6.0\PubTmp\Out\Microsoft.AspNetCore.Components.dll
+C:\Users\adrio\OneDrive\Desktop\tutticolori\TCplatBlazorProj\TcPlatWebApp\TcPlatWebApp\obj\Release\net6.0\PubTmp\Out\Microsoft.AspNetCore.Identity.UI.dll
 C:\Users\adrio\OneDrive\Desktop\tutticolori\TCplatBlazorProj\TcPlatWebApp\TcPlatWebApp\obj\Release\net6.0\PubTmp\Out\Microsoft.AspNetCore.Metadata.dll
 C:\Users\adrio\OneDrive\Desktop\tutticolori\TCplatBlazorProj\TcPlatWebApp\TcPlatWebApp\obj\Release\net6.0\PubTmp\Out\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\adrio\OneDrive\Desktop\tutticolori\TCplatBlazorProj\TcPlatWebApp\TcPlatWebApp\obj\Release\net6.0\PubTmp\Out\Microsoft.Data.SqlClient.dll

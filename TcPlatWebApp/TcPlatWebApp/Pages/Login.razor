@@ -1,8 +1,14 @@
 ﻿@page "/"
-@namespace System.Diagnostics
+@namespace TcPlatWebApp.Pages
+
+@using Microsoft.AspNetCore.Components.Server.ProtectedBrowserStorage
 @using SQLDatAccessLibrary.Login
+@using TcPlatWebApp.Authentication
 @inject NavigationManager Navigation
 @inject ILoginData loginData
+@inject CustomAuthenticationStateProvider AuthenticationStateProvider
+@inject ProtectedSessionStorage ProtectedSessionStorage
+@inject UserAccountService userAccountService
 
 <RadzenRow Gap="0" Class="rz-my-12 rz-mx-auto rz-border-radius-6 rz-shadow-10" Style="width: 100%; max-width: 800px; overflow: hidden;">
     <RadzenColumn Size="12" SizeMD="6">
@@ -30,8 +36,8 @@
 <EventConsole @ref="console" />
 
 @code {
-    string userName = "admin";
-    string password = "admin";
+    string userName = "";
+    string password = "";
     bool rememberMe = true;
 
     EventConsole console;
@@ -43,6 +49,21 @@
         if (loginResult > 0)
         {
             console.Log($"{name} -> Successful login for user: {args.Username}");
+
+            var userAccounts = await userAccountService.GetByUserNameAsync(args.Username);
+            var userAccount = userAccounts.FirstOrDefault();
+
+            var userSession = new UserSession
+                {
+                    Username = userAccount.Username,
+                    Role = userAccount.Role, // Use the role from the database
+                    Password = userAccount.Password, // Optional: Store the password if needed (not recommended)
+                    SessionStartTime = DateTime.UtcNow
+                };
+
+            await ProtectedSessionStorage.SetAsync("UserSession", userSession);
+            await AuthenticationStateProvider.UpdateAuthenticationState(userSession);
+
             Navigation.NavigateTo("/anagrafici");
         }
         else

@@ -14,6 +14,8 @@ namespace SQLDatAccessLibrary.Anagrafici
         public string PaeseDiNascita { get; set; }
         public string Username { get; set; }
         public string PasswordHash { get; set; } // This should store the encrypted password
-        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+     public bool ActState { get; set; } 
+        public string Role {  get; set; }
+
     }
 }
