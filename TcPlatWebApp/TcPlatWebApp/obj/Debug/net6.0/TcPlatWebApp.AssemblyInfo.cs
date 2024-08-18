@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TcPlatWebApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4b54d7e586d4311c702e1a152d2d83fed9802f2c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0c1928be7d137b57414d1651c912ba4d51e30e92")]
 [assembly: System.Reflection.AssemblyProductAttribute("TcPlatWebApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TcPlatWebApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -9,6 +9,7 @@
 @inject CustomAuthenticationStateProvider AuthenticationStateProvider
 @inject ProtectedSessionStorage ProtectedSessionStorage
 @inject UserAccountService userAccountService
+@inject IJSRuntime JSRuntime
 
 <RadzenRow Gap="0" Class="rz-my-12 rz-mx-auto rz-border-radius-6 rz-shadow-10" Style="width: 100%; max-width: 800px; overflow: hidden;">
     <RadzenColumn Size="12" SizeMD="6">
@@ -35,6 +36,11 @@
 
 <EventConsole @ref="console" />
 
+<div id="loadingModal" class="loading-modal" style="display: none;">
+    <div class="loading-spinner"></div>
+    <div class="loading-message">Benvenuto, @userName</div>
+</div>
+
 @code {
     string userName = "";
     string password = "";
@@ -56,15 +62,22 @@
             var userSession = new UserSession
                 {
                     Username = userAccount.Username,
-                    Role = userAccount.Role, // Use the role from the database
-                    Password = userAccount.Password, // Optional: Store the password if needed (not recommended)
+                    Role = userAccount.Role,
+                    Password = userAccount.Password,
                     SessionStartTime = DateTime.UtcNow
                 };
 
             await ProtectedSessionStorage.SetAsync("UserSession", userSession);
             await AuthenticationStateProvider.UpdateAuthenticationState(userSession);
 
-            Navigation.NavigateTo("/anagrafici");
+            // Show the loading modal via JavaScript
+            await JSRuntime.InvokeVoidAsync("showLoadingModal", args.Username);
+
+            await Task.Delay(3000); // Delay for 3 seconds
+
+            // Hide the loading modal and navigate
+            await JSRuntime.InvokeVoidAsync("hideLoadingModal");
+            Navigation.NavigateTo("/anagrafici", forceLoad: true);
         }
         else
         {
