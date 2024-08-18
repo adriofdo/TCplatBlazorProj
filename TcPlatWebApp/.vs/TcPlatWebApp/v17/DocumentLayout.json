@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TCplatBlazorProj\\TcPlatWebApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{356AFBA5-E33A-4A8E-AA0E-4A0A0BD03533}|TcPlatWebApp\\TcPlatWebApp.csproj|c:\\users\\adrio\\onedrive\\desktop\\tutticolori\\tcplatblazorproj\\tcplatwebapp\\tcplatwebapp\\pages\\attivazioneacc.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{356AFBA5-E33A-4A8E-AA0E-4A0A0BD03533}|TcPlatWebApp\\TcPlatWebApp.csproj|solutionrelative:tcplatwebapp\\pages\\attivazioneacc.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{356AFBA5-E33A-4A8E-AA0E-4A0A0BD03533}|TcPlatWebApp\\TcPlatWebApp.csproj|c:\\users\\adrio\\onedrive\\desktop\\tutticolori\\tcplatblazorproj\\tcplatwebapp\\tcplatwebapp\\authentication\\customauthenticationstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{356AFBA5-E33A-4A8E-AA0E-4A0A0BD03533}|TcPlatWebApp\\TcPlatWebApp.csproj|solutionrelative:tcplatwebapp\\authentication\\customauthenticationstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E600688-4B4B-482C-9155-F95A72F01CF4}|SQLDatAccessLibrary\\SQLDatAccessLibrary.csproj|c:\\users\\adrio\\onedrive\\desktop\\tutticolori\\tcplatblazorproj\\tcplatwebapp\\sqldataccesslibrary\\anagrafici\\ianagraficidata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E600688-4B4B-482C-9155-F95A72F01CF4}|SQLDatAccessLibrary\\SQLDatAccessLibrary.csproj|solutionrelative:sqldataccesslibrary\\anagrafici\\ianagraficidata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{356AFBA5-E33A-4A8E-AA0E-4A0A0BD03533}|TcPlatWebApp\\TcPlatWebApp.csproj|c:\\users\\adrio\\onedrive\\desktop\\tutticolori\\tcplatblazorproj\\tcplatwebapp\\tcplatwebapp\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{356AFBA5-E33A-4A8E-AA0E-4A0A0BD03533}|TcPlatWebApp\\TcPlatWebApp.csproj|solutionrelative:tcplatwebapp\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -19,10 +31,6 @@
       "RelativeMoniker": "D:0:0:{3E600688-4B4B-482C-9155-F95A72F01CF4}|SQLDatAccessLibrary\\SQLDatAccessLibrary.csproj|solutionrelative:sqldataccesslibrary\\anagrafici\\anagraficidata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E600688-4B4B-482C-9155-F95A72F01CF4}|SQLDatAccessLibrary\\SQLDatAccessLibrary.csproj|c:\\users\\adrio\\onedrive\\desktop\\tutticolori\\tcplatblazorproj\\tcplatwebapp\\sqldataccesslibrary\\anagrafici\\ianagraficidata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E600688-4B4B-482C-9155-F95A72F01CF4}|SQLDatAccessLibrary\\SQLDatAccessLibrary.csproj|solutionrelative:sqldataccesslibrary\\anagrafici\\ianagraficidata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3E600688-4B4B-482C-9155-F95A72F01CF4}|SQLDatAccessLibrary\\SQLDatAccessLibrary.csproj|c:\\users\\adrio\\onedrive\\desktop\\tutticolori\\tcplatblazorproj\\tcplatwebapp\\sqldataccesslibrary\\anagrafici\\anagraficimodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E600688-4B4B-482C-9155-F95A72F01CF4}|SQLDatAccessLibrary\\SQLDatAccessLibrary.csproj|solutionrelative:sqldataccesslibrary\\anagrafici\\anagraficimodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -35,20 +43,12 @@
       "RelativeMoniker": "D:0:0:{356AFBA5-E33A-4A8E-AA0E-4A0A0BD03533}|TcPlatWebApp\\TcPlatWebApp.csproj|solutionrelative:tcplatwebapp\\pages\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{356AFBA5-E33A-4A8E-AA0E-4A0A0BD03533}|TcPlatWebApp\\TcPlatWebApp.csproj|c:\\users\\adrio\\onedrive\\desktop\\tutticolori\\tcplatblazorproj\\tcplatwebapp\\tcplatwebapp\\pages\\attivazioneacc.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{356AFBA5-E33A-4A8E-AA0E-4A0A0BD03533}|TcPlatWebApp\\TcPlatWebApp.csproj|solutionrelative:tcplatwebapp\\pages\\attivazioneacc.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{356AFBA5-E33A-4A8E-AA0E-4A0A0BD03533}|TcPlatWebApp\\TcPlatWebApp.csproj|c:\\users\\adrio\\onedrive\\desktop\\tutticolori\\tcplatblazorproj\\tcplatwebapp\\tcplatwebapp\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{356AFBA5-E33A-4A8E-AA0E-4A0A0BD03533}|TcPlatWebApp\\TcPlatWebApp.csproj|solutionrelative:tcplatwebapp\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{356AFBA5-E33A-4A8E-AA0E-4A0A0BD03533}|TcPlatWebApp\\TcPlatWebApp.csproj|c:\\users\\adrio\\onedrive\\desktop\\tutticolori\\tcplatblazorproj\\tcplatwebapp\\tcplatwebapp\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{356AFBA5-E33A-4A8E-AA0E-4A0A0BD03533}|TcPlatWebApp\\TcPlatWebApp.csproj|solutionrelative:tcplatwebapp\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{356AFBA5-E33A-4A8E-AA0E-4A0A0BD03533}|TcPlatWebApp\\TcPlatWebApp.csproj|c:\\users\\adrio\\onedrive\\desktop\\tutticolori\\tcplatblazorproj\\tcplatwebapp\\tcplatwebapp\\authentication\\customauthenticationstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{356AFBA5-E33A-4A8E-AA0E-4A0A0BD03533}|TcPlatWebApp\\TcPlatWebApp.csproj|solutionrelative:tcplatwebapp\\authentication\\customauthenticationstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3E600688-4B4B-482C-9155-F95A72F01CF4}|SQLDatAccessLibrary\\SQLDatAccessLibrary.csproj|c:\\users\\adrio\\onedrive\\desktop\\tutticolori\\tcplatblazorproj\\tcplatwebapp\\sqldataccesslibrary\\registrazione\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -94,7 +94,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 397,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -110,7 +110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Login.razor",
               "DocumentMoniker": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TCplatBlazorProj\\TcPlatWebApp\\TcPlatWebApp\\Pages\\Login.razor",
               "RelativeDocumentMoniker": "TcPlatWebApp\\Pages\\Login.razor",
@@ -123,7 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "AnagraficiData.cs",
               "DocumentMoniker": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TCplatBlazorProj\\TcPlatWebApp\\SQLDatAccessLibrary\\Anagrafici\\AnagraficiData.cs",
               "RelativeDocumentMoniker": "SQLDatAccessLibrary\\Anagrafici\\AnagraficiData.cs",
@@ -131,12 +131,11 @@
               "RelativeToolTip": "SQLDatAccessLibrary\\Anagrafici\\AnagraficiData.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-18T14:43:48.209Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-18T14:43:48.209Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "IAnagraficiData.cs",
               "DocumentMoniker": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TCplatBlazorProj\\TcPlatWebApp\\SQLDatAccessLibrary\\Anagrafici\\IAnagraficiData.cs",
               "RelativeDocumentMoniker": "SQLDatAccessLibrary\\Anagrafici\\IAnagraficiData.cs",
@@ -149,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "AnagraficiModel.cs",
               "DocumentMoniker": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TCplatBlazorProj\\TcPlatWebApp\\SQLDatAccessLibrary\\Anagrafici\\AnagraficiModel.cs",
               "RelativeDocumentMoniker": "SQLDatAccessLibrary\\Anagrafici\\AnagraficiModel.cs",
@@ -157,18 +156,17 @@
               "RelativeToolTip": "SQLDatAccessLibrary\\Anagrafici\\AnagraficiModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-18T14:43:44.69Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-18T14:43:44.69Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "AttivazioneAcc.razor",
               "DocumentMoniker": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TCplatBlazorProj\\TcPlatWebApp\\TcPlatWebApp\\Pages\\AttivazioneAcc.razor",
               "RelativeDocumentMoniker": "TcPlatWebApp\\Pages\\AttivazioneAcc.razor",
               "ToolTip": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TCplatBlazorProj\\TcPlatWebApp\\TcPlatWebApp\\Pages\\AttivazioneAcc.razor",
               "RelativeToolTip": "TcPlatWebApp\\Pages\\AttivazioneAcc.razor",
-              "ViewState": "AQIAADkAAAAAAAAAAAAAAEkAAABAAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAABTAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-17T22:14:24.341Z",
               "EditorCaption": ""
@@ -200,7 +198,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 1,
               "Title": "CustomAuthenticationStateProvider.cs",
               "DocumentMoniker": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TCplatBlazorProj\\TcPlatWebApp\\TcPlatWebApp\\Authentication\\CustomAuthenticationStateProvider.cs",
               "RelativeDocumentMoniker": "TcPlatWebApp\\Authentication\\CustomAuthenticationStateProvider.cs",
@@ -208,7 +206,8 @@
               "RelativeToolTip": "TcPlatWebApp\\Authentication\\CustomAuthenticationStateProvider.cs",
               "ViewState": "AQIAADsAAAAAAAAAAAAqwFoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-17T20:56:08.3Z"
+              "WhenOpened": "2024-08-17T20:56:08.3Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -224,7 +223,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TCplatBlazorProj\\TcPlatWebApp\\TcPlatWebApp\\Shared\\MainLayout.razor",
               "RelativeDocumentMoniker": "TcPlatWebApp\\Shared\\MainLayout.razor",
@@ -236,7 +235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TCplatBlazorProj\\TcPlatWebApp\\TcPlatWebApp\\Shared\\NavMenu.razor",
               "RelativeDocumentMoniker": "TcPlatWebApp\\Shared\\NavMenu.razor",
@@ -272,7 +271,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "AnagraficiGrid.razor",
               "DocumentMoniker": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TCplatBlazorProj\\TcPlatWebApp\\TcPlatWebApp\\Pages\\AnagraficiGrid.razor",
               "RelativeDocumentMoniker": "TcPlatWebApp\\Pages\\AnagraficiGrid.razor",
@@ -285,7 +284,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TCplatBlazorProj\\TcPlatWebApp\\TcPlatWebApp\\Pages\\_Layout.cshtml",
               "RelativeDocumentMoniker": "TcPlatWebApp\\Pages\\_Layout.cshtml",
@@ -293,8 +292,7 @@
               "RelativeToolTip": "TcPlatWebApp\\Pages\\_Layout.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-17T22:16:50.679Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-17T22:16:50.679Z"
             },
             {
               "$type": "Document",
@@ -358,20 +356,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Regisjs.js",
               "DocumentMoniker": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TCplatBlazorProj\\TcPlatWebApp\\TcPlatWebApp\\wwwroot\\js\\Regisjs.js",
               "RelativeDocumentMoniker": "TcPlatWebApp\\wwwroot\\js\\Regisjs.js",
               "ToolTip": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TCplatBlazorProj\\TcPlatWebApp\\TcPlatWebApp\\wwwroot\\js\\Regisjs.js",
               "RelativeToolTip": "TcPlatWebApp\\wwwroot\\js\\Regisjs.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAA5wA4AAAABAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAowA4AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2024-08-18T14:56:04.558Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\adrio\\OneDrive\\Desktop\\tutticolori\\TCplatBlazorProj\\TcPlatWebApp\\TcPlatWebApp\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "TcPlatWebApp\\wwwroot\\css\\site.css",
@@ -379,8 +377,7 @@
               "RelativeToolTip": "TcPlatWebApp\\wwwroot\\css\\site.css",
               "ViewState": "AQIAAPgAAAAAAAAAAAAuwPkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-08-18T14:54:27.399Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-18T14:54:27.399Z"
             }
           ]
         }

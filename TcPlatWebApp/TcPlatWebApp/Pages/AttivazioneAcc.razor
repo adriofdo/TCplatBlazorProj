@@ -7,9 +7,10 @@
 @using SQLDatAccessLibrary.Anagrafici
 @using System.Security.Claims
 
-<h3>Non é autorizzato per il ruolo Corrente contatta Amministratore</h3>
+
 
 <AuthorizeView Roles="Admin">
+    <NotAuthorized><h3>Acces denied on Role. contact an Admin </h3></NotAuthorized>
     <Authorized>
         <h3>Attiva gli Account Tutticolori</h3>
 
