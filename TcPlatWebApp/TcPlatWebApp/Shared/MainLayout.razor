@@ -1,5 +1,7 @@
-﻿@inherits LayoutComponentBase
+﻿@using TcPlatWebApp.Authentication
+@inherits LayoutComponentBase
 @inject NavigationManager NavigationManager
+@inject CustomAuthenticationStateProvider AuthenticationStateProvider
 
 <PageTitle>TcPlatWebApp</PageTitle>
 
@@ -10,10 +12,16 @@
 
     <main>
         <div class="top-row px-4 d-flex justify-content-between align-items-center">
-         
             <button class="btn btn-secondary" @onclick="RefreshPage" title="Refresh">
-                <i class="fas fa-sync-alt"></i> Refresh
+                <i class="fas fa-sync-alt"></i> Repristina
             </button>
+
+            <AuthorizeView>
+                <button class="btn btn-danger" @onclick="Logout" title="Logout" style="margin-left: 10px;">
+                    <i class="fas fa-sign-out-alt"></i> Logout
+                </button>
+            </AuthorizeView>
+           
         </div>
 
         <article class="content px-4">
@@ -27,5 +35,11 @@
     {
         // Reload the current page
         NavigationManager.NavigateTo(NavigationManager.Uri, forceLoad: true);
+    }
+
+    private async Task Logout()
+    {
+        await AuthenticationStateProvider.Logout();
+        NavigationManager.NavigateTo("/", forceLoad: true); // Redirect to home or login page after logout
     }
 }

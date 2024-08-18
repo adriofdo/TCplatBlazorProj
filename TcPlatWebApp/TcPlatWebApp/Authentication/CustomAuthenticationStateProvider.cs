@@ -7,7 +7,7 @@ namespace TcPlatWebApp.Authentication
     public class CustomAuthenticationStateProvider : AuthenticationStateProvider
     {
         private readonly ProtectedSessionStorage _sessionStorage;
-        private ClaimsPrincipal _anonymous = new ClaimsPrincipal(new ClaimsIdentity());
+        private readonly ClaimsPrincipal _anonymous = new ClaimsPrincipal(new ClaimsIdentity());
 
         public CustomAuthenticationStateProvider(ProtectedSessionStorage sessionStorage)
         {
@@ -22,36 +22,44 @@ namespace TcPlatWebApp.Authentication
                 var userSession = userSessionStorageResult.Success ? userSessionStorageResult.Value : null;
 
                 if (userSession == null || HasSessionExpired(userSession))
-                    return await Task.FromResult(new AuthenticationState(_anonymous));
+                    return new AuthenticationState(_anonymous);
 
-                var claimsPrincipal = new ClaimsPrincipal(new ClaimsIdentity(new List<Claim>
+                var claims = new List<Claim>
                 {
                     new Claim(ClaimTypes.Name, userSession.Username),
-                    new Claim(ClaimTypes.Role, userSession.Role) // Ensure this claim is correctly set
-                }, "CustomAuth"));
+                    new Claim(ClaimTypes.Role, userSession.Role)
+                };
 
-                // Debugging output
-                Console.WriteLine($"Assigned role: {userSession.Role}");
+                // Check if password is present and add to claims
+                if (!string.IsNullOrEmpty(userSession.Password))
+                {
+                    Console.WriteLine($"Password loaded: {userSession.Password}");  // Debugging output
+                    claims.Add(new Claim("password", userSession.Password));
+                }
+                else
+                {
+                    Console.WriteLine("Password is missing or empty");
+                }
 
-                return await Task.FromResult(new AuthenticationState(claimsPrincipal));
+                var claimsPrincipal = new ClaimsPrincipal(new ClaimsIdentity(claims, "CustomAuth"));
+                return new AuthenticationState(claimsPrincipal);
             }
             catch (Exception ex)
             {
                 Console.Error.WriteLine($"Error retrieving authentication state: {ex.Message}");
-                return await Task.FromResult(new AuthenticationState(_anonymous));
+                return new AuthenticationState(_anonymous);
             }
         }
 
         private bool HasSessionExpired(UserSession userSession)
         {
-            var sessionTimeoutDuration = TimeSpan.FromDays(30);
-            var sessionExpiryTime = userSession.SessionStartTime + sessionTimeoutDuration;
-            return DateTime.UtcNow > sessionExpiryTime;
+            return DateTime.UtcNow > userSession.SessionStartTime.AddDays(30);
         }
 
         public async Task UpdateAuthenticationState(UserSession userSession)
         {
             ClaimsPrincipal claimsPrincipal;
+
             if (userSession != null)
             {
                 userSession.SessionStartTime = DateTime.UtcNow;
@@ -69,6 +77,13 @@ namespace TcPlatWebApp.Authentication
                 claimsPrincipal = _anonymous;
             }
 
+            NotifyAuthenticationStateChanged(Task.FromResult(new AuthenticationState(claimsPrincipal)));
+        }
+
+        public async Task Logout()
+        {
+            await _sessionStorage.DeleteAsync("UserSession");
+            var claimsPrincipal = _anonymous;
             NotifyAuthenticationStateChanged(Task.FromResult(new AuthenticationState(claimsPrincipal)));
         }
     }

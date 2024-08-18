@@ -1,39 +1,22 @@
-﻿using System.Threading.Tasks;
+﻿using SQLDatAccessLibrary;
 using System.Collections.Generic;
-using System.Linq;
-using SQLDatAccessLibrary;
+using System.Threading.Tasks;
 
-using System.Web;
-
-using System.Text;
-using System;
-using System.Net;
-
-
-
-namespace TcPlatWebApp.Authentication;
-
-public class UserAccountService
+namespace TcPlatWebApp.Authentication
 {
-    private readonly ISqlDataAccess _dataAccess;
-    private readonly  SQLDatAccessLibrary.VG _vgAppuntamenti;
-    string CurrentUserName;
-    
-    
-    public UserAccountService(ISqlDataAccess dataAccess, VG vgAppuntamenti)
+    public class UserAccountService
     {
-        _dataAccess = dataAccess;
-        _vgAppuntamenti = vgAppuntamenti;
+        private readonly ISqlDataAccess _dataAccess;
+
+        public UserAccountService(ISqlDataAccess dataAccess)
+        {
+            _dataAccess = dataAccess;
+        }
+
+        public async Task<List<UserAccount>> GetByUserNameAsync(string userName)
+        {
+            string sql = "SELECT * FROM [dbo].[tblInfoAnagrafici] WHERE Username = @Username";
+            return await _dataAccess.LoadData<UserAccount, dynamic>(sql, new { Username = userName });
+        }
     }
-
-    public async Task<List<UserAccount>> GetbyUserNameAsync(string userName)
-    {
-        string sql = "SELECT * FROM [dbo].[tblInfoAnagrafici] WHERE Username = @Username";
-        var parameters = new { Username = userName };
-
-        return await _dataAccess.LoadData<UserAccount, dynamic>(sql, parameters);
-    }
-
-   
-   
 }

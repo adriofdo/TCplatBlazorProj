@@ -15,7 +15,7 @@ namespace SQLDatAccessLibrary.Anagrafici
         public string Username { get; set; }
         public string PasswordHash { get; set; } // This should store the encrypted password
      public bool ActState { get; set; } 
-        public string RoleUsr {  get; set; }
+        public string Role {  get; set; }
 
     }
 }
