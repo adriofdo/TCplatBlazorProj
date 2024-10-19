@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
+
 namespace SQLDatAccessLibrary.Anagrafici
 {
     public class AnagraficiData : IAnagraficiData
